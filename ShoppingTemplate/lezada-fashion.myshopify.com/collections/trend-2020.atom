@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lezada-fashion.myshopify.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lezada-fashion.myshopify.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lezada-fashion.myshopify.com/collections/trend-2020.atom"/>
+  <title>Lezada Fashion</title>
+  <updated>2019-05-08T01:50:50-04:00</updated>
+  <author>
+    <name>Lezada Fashion</name>
+  </author>
+  <entry>
+    <id>https://lezada-fashion.myshopify.com/products/1808976281645</id>
+    <published>2019-05-08T01:50:50-04:00</published>
+    <updated>2019-05-08T01:50:50-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://lezada-fashion.myshopify.com/products/1-new-and-sale-badge-product"/>
+    <title>1. New and sale badge product</title>
+    <s:type>Type 1</s:type>
+    <s:vendor>Vendor 1</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0030/8799/0829/products/prduct_02.png?v=1557294871"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Vendor 1<br>
+        <strong>Type: </strong>Type 1<br>
+        <strong>Price: </strong>
+            110.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+[new_products]300[/new_products] [short_description]
+<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,</p>
+[/short_description] [product_description]
+<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+<p>[/product_description]</p>
+<p>[product_video]https://www.youtube.com/watch?v=2df62ekI9UY[/product_video]</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>blue</s:tag>
+    <s:tag>green</s:tag>
+    <s:tag>l</s:tag>
+    <s:tag>m</s:tag>
+    <s:tag>red</s:tag>
+    <s:tag>s</s:tag>
+    <s:tag>white</s:tag>
+    <s:tag>xl</s:tag>
+    <s:tag>yellow</s:tag>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/products/1808976281645</id>
+      <title>s / red</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1510</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/products/1808976281645</id>
+      <title>s / green</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1511</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/products/1808976281645</id>
+      <title>s / blue</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1512</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/products/1808976281645</id>
+      <title>s / yellow</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1513</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/products/1808976281645</id>
+      <title>s / white</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1514</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/products/1808976281645</id>
+      <title>m / red</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1515</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/products/1808976281645</id>
+      <title>m / green</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1516</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/products/1808976281645</id>
+      <title>m / blue</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1517</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/products/1808976281645</id>
+      <title>m / yellow</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1518</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/products/1808976281645</id>
+      <title>m / white</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1519</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/products/1808976281645</id>
+      <title>l / red</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1520</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/products/1808976281645</id>
+      <title>l / green</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1521</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/products/1808976281645</id>
+      <title>l / blue</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1522</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/products/1808976281645</id>
+      <title>l / yellow</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1523</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/products/1808976281645</id>
+      <title>l / white</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1524</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/products/1808976281645</id>
+      <title>xl / red</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1525</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/products/1808976281645</id>
+      <title>xl / green</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1526</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/products/1808976281645</id>
+      <title>xl / blue</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1527</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/products/1808976281645</id>
+      <title>xl / yellow</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1528</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/products/1808976281645</id>
+      <title>xl / white</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1529</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+</feed>

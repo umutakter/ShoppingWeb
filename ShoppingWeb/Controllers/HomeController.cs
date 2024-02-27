@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using ShoppingBLL;
+using ShoppingML;
 using ShoppingWeb.Models;
 using System.Diagnostics;
 
@@ -15,6 +18,17 @@ namespace ShoppingWeb.Controllers
 
         public IActionResult Index()
         {
+            var bl = new UserBusiness();
+            User user = new User()
+            {
+                Username = "Umutakter",
+                Password = "123234",
+                FirstName= "Umut",
+                LastName="Akrer",
+                Email ="akterumut@hotmail.com",
+                Gender ="Male"
+            };
+            bl.InsertUser(user);
             return View();
         }
 

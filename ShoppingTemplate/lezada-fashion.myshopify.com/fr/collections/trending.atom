@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="fr" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lezada-fashion.myshopify.com/fr/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lezada-fashion.myshopify.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lezada-fashion.myshopify.com/fr/collections/trending.atom"/>
+  <title>Lezada Fashion</title>
+  <updated>2019-12-28T00:54:53-05:00</updated>
+  <author>
+    <name>Lezada Fashion</name>
+  </author>
+  <entry>
+    <id>https://lezada-fashion.myshopify.com/fr/products/4453040062509</id>
+    <published>2019-12-28T00:54:53-05:00</published>
+    <updated>2019-12-28T00:54:53-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://lezada-fashion.myshopify.com/fr/products/next-level-mens-t-shirt"/>
+    <title>Next Level Mens T-Shirt</title>
+    <s:type>Type 8</s:type>
+    <s:vendor>Vendor 8</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0030/8799/0829/products/p10_dd1725b0-17f6-415f-8854-0a49b6718c74.png?v=1577512559"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Fournisseur : </strong>Vendor 8<br>
+        <strong>Type : </strong>Type 8<br>
+        <strong>Prix : </strong>
+            39.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
+<p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+[short_description]
+<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+[/short_description] [product_description]
+<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
+<p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>[/product_description] [countdown]2020/03/24[/countdown]</p>
+<p>[product_video]https://www.youtube.com/watch?v=2df62ekI9UY[/product_video]</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>blue</s:tag>
+    <s:tag>gold</s:tag>
+    <s:tag>gray</s:tag>
+    <s:tag>green</s:tag>
+    <s:tag>red</s:tag>
+    <s:tag>white</s:tag>
+    <s:tag>yellow</s:tag>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453040062509</id>
+      <title>red</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>3010</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453040062509</id>
+      <title>green</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>3011</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453040062509</id>
+      <title>blue</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>3012</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453040062509</id>
+      <title>yellow</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>3013</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453040062509</id>
+      <title>white</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>3014</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453040062509</id>
+      <title>gold</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>3015</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453040062509</id>
+      <title>gray</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>3016</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lezada-fashion.myshopify.com/fr/products/4452914626605</id>
+    <published>2019-12-28T00:16:34-05:00</published>
+    <updated>2019-12-28T00:16:34-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://lezada-fashion.myshopify.com/fr/products/mens-x-temp-performance-polo-shirt-1"/>
+    <title>Men&apos;s X-Temp Performance Polo Shirt</title>
+    <s:type>Type 9</s:type>
+    <s:vendor>Vendor 9</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0030/8799/0829/products/p7_ea4b5538-b77c-4c9e-b518-a95fe2f0bfe2.png?v=1577510287"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Fournisseur : </strong>Vendor 9<br>
+        <strong>Type : </strong>Type 9<br>
+        <strong>Prix : </strong>
+            79.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.</p>
+<p>I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</p>
+<p>[product_video]https://www.youtube.com/watch?v=2df62ekI9UY[/product_video]</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>l</s:tag>
+    <s:tag>m</s:tag>
+    <s:tag>s</s:tag>
+    <s:tag>xl</s:tag>
+    <s:tag>xxl</s:tag>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452914626605</id>
+      <title>s</title>
+      <s:price currency="USD">79.00</s:price>
+      <s:sku>1411</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452914626605</id>
+      <title>m</title>
+      <s:price currency="USD">79.00</s:price>
+      <s:sku>1412</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452914626605</id>
+      <title>l</title>
+      <s:price currency="USD">79.00</s:price>
+      <s:sku>1413</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452914626605</id>
+      <title>xl</title>
+      <s:price currency="USD">79.00</s:price>
+      <s:sku>1414</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452914626605</id>
+      <title>xxl</title>
+      <s:price currency="USD">79.00</s:price>
+      <s:sku>1415</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lezada-fashion.myshopify.com/fr/products/4452891918381</id>
+    <published>2019-12-28T00:09:32-05:00</published>
+    <updated>2019-12-28T00:09:32-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://lezada-fashion.myshopify.com/fr/products/mens-force-cotton-sleeve-t-shirt"/>
+    <title>Men&apos;s Force Cotton Sleeve T-shirt</title>
+    <s:type>Type 5</s:type>
+    <s:vendor>Vendor 5</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0030/8799/0829/products/p5_49246b1d-eecf-4814-8e85-1ca60c8e965f.png?v=1577509804"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Fournisseur : </strong>Vendor 5<br>
+        <strong>Type : </strong>Type 5<br>
+        <strong>Prix : </strong>
+            50.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.</p>
+<p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+[short_description]
+<p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will</p>
+[/short_description] [product_description]
+<p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.</p>
+<p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+<p>[/product_description]</p>
+<p>[product_video]https://www.youtube.com/watch?v=2df62ekI9UY[/product_video]</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>black</s:tag>
+    <s:tag>gray</s:tag>
+    <s:tag>m</s:tag>
+    <s:tag>metal</s:tag>
+    <s:tag>resin</s:tag>
+    <s:tag>s</s:tag>
+    <s:tag>white</s:tag>
+    <s:tag>xl</s:tag>
+    <s:tag>xxl</s:tag>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452891918381</id>
+      <title>Default Title</title>
+      <s:price currency="USD">50.00</s:price>
+      <s:sku>101</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+</feed>

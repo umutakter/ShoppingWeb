@@ -1,0 +1,1618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="fr" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://lezada-fashion.myshopify.com/fr/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://lezada-fashion.myshopify.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://lezada-fashion.myshopify.com/fr/collections/new-arrival.atom"/>
+  <title>Lezada Fashion</title>
+  <updated>2019-12-28T00:59:21-05:00</updated>
+  <author>
+    <name>Lezada Fashion</name>
+  </author>
+  <entry>
+    <id>https://lezada-fashion.myshopify.com/fr/products/4453050056749</id>
+    <published>2019-12-28T00:59:21-05:00</published>
+    <updated>2019-12-28T00:59:21-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://lezada-fashion.myshopify.com/fr/products/mens-nano-premium-cotton-t-shirt"/>
+    <title>Men&apos;s Nano Premium Cotton T-Shirt</title>
+    <s:type>Type 1</s:type>
+    <s:vendor>Vendor 1</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0030/8799/0829/products/p12.png?v=1577512841"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Fournisseur : </strong>Vendor 1<br>
+        <strong>Type : </strong>Type 1<br>
+        <strong>Prix : </strong>
+            110.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+[new_products]300[/new_products] [short_description]
+<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,</p>
+[/short_description] [product_description]
+<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+[/product_description]</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>blue</s:tag>
+    <s:tag>green</s:tag>
+    <s:tag>l</s:tag>
+    <s:tag>m</s:tag>
+    <s:tag>red</s:tag>
+    <s:tag>s</s:tag>
+    <s:tag>white</s:tag>
+    <s:tag>xl</s:tag>
+    <s:tag>yellow</s:tag>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453050056749</id>
+      <title>s / red</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1510</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453050056749</id>
+      <title>s / green</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1511</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453050056749</id>
+      <title>s / blue</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1512</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453050056749</id>
+      <title>s / yellow</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1513</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453050056749</id>
+      <title>s / white</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1514</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453050056749</id>
+      <title>m / red</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1515</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453050056749</id>
+      <title>m / green</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1516</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453050056749</id>
+      <title>m / blue</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1517</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453050056749</id>
+      <title>m / yellow</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1518</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453050056749</id>
+      <title>m / white</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1519</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453050056749</id>
+      <title>l / red</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1520</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453050056749</id>
+      <title>l / green</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1521</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453050056749</id>
+      <title>l / blue</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1522</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453050056749</id>
+      <title>l / yellow</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1523</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453050056749</id>
+      <title>l / white</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1524</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453050056749</id>
+      <title>xl / red</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1525</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453050056749</id>
+      <title>xl / green</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1526</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453050056749</id>
+      <title>xl / blue</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1527</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453050056749</id>
+      <title>xl / yellow</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1528</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453050056749</id>
+      <title>xl / white</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1529</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lezada-fashion.myshopify.com/fr/products/4453045960749</id>
+    <published>2019-12-28T00:57:27-05:00</published>
+    <updated>2019-12-28T00:57:27-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://lezada-fashion.myshopify.com/fr/products/hanes-short-sleeve-beefy-pocket-t-shirt"/>
+    <title>Hanes Short Sleeve Beefy Pocket T-Shirt</title>
+    <s:type>Type 11</s:type>
+    <s:vendor>Vendor 11</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0030/8799/0829/products/p9_0fb91487-bf13-4fa8-8b57-e3536dcd9296.png?v=1577513297"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Fournisseur : </strong>Vendor 11<br>
+        <strong>Type : </strong>Type 11<br>
+        <strong>Prix : </strong>
+            39.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>As opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+<p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc</p>
+[product_video]https://www.youtube.com/watch?v=2df62ekI9UY[/product_video]<br></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>black</s:tag>
+    <s:tag>navy</s:tag>
+    <s:tag>pink</s:tag>
+    <s:tag>purple</s:tag>
+    <s:tag>violet</s:tag>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453045960749</id>
+      <title>navy</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>9911</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453045960749</id>
+      <title>purple</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>9912</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453045960749</id>
+      <title>violet</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>9913</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453045960749</id>
+      <title>black</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>9914</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4453045960749</id>
+      <title>pink</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>9915</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lezada-fashion.myshopify.com/fr/products/4452920983597</id>
+    <published>2019-12-28T00:19:12-05:00</published>
+    <updated>2019-12-28T00:19:12-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://lezada-fashion.myshopify.com/fr/products/mens-big-and-tall-short-sleeve-moisture"/>
+    <title>Men&apos;s Big and Tall Short Sleeve Moisture</title>
+    <s:type>Type 7</s:type>
+    <s:vendor>Vendor 7</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0030/8799/0829/products/p8_6c46ebe3-2b1e-4c50-b4ac-0e00c34702d3.png?v=1577510440"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Fournisseur : </strong>Vendor 7<br>
+        <strong>Type : </strong>Type 7<br>
+        <strong>Prix : </strong>
+            29.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure</p>
+<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+[short_description]
+<p>I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.</p>
+[/short_description] [product_description]
+<p>I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure</p>
+<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+[/product_description] [affiliate_link]https://affiliate-program.amazon.com/[/affiliate_link]</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>blue</s:tag>
+    <s:tag>gold</s:tag>
+    <s:tag>magenta</s:tag>
+    <s:tag>maroon</s:tag>
+    <s:tag>navy</s:tag>
+    <s:tag>white</s:tag>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452920983597</id>
+      <title>Default Title</title>
+      <s:price currency="USD">29.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lezada-fashion.myshopify.com/fr/products/4452914626605</id>
+    <published>2019-12-28T00:16:34-05:00</published>
+    <updated>2019-12-28T00:16:34-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://lezada-fashion.myshopify.com/fr/products/mens-x-temp-performance-polo-shirt-1"/>
+    <title>Men&apos;s X-Temp Performance Polo Shirt</title>
+    <s:type>Type 9</s:type>
+    <s:vendor>Vendor 9</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0030/8799/0829/products/p7_ea4b5538-b77c-4c9e-b518-a95fe2f0bfe2.png?v=1577510287"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Fournisseur : </strong>Vendor 9<br>
+        <strong>Type : </strong>Type 9<br>
+        <strong>Prix : </strong>
+            79.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.</p>
+<p>I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</p>
+<p>[product_video]https://www.youtube.com/watch?v=2df62ekI9UY[/product_video]</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>l</s:tag>
+    <s:tag>m</s:tag>
+    <s:tag>s</s:tag>
+    <s:tag>xl</s:tag>
+    <s:tag>xxl</s:tag>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452914626605</id>
+      <title>s</title>
+      <s:price currency="USD">79.00</s:price>
+      <s:sku>1411</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452914626605</id>
+      <title>m</title>
+      <s:price currency="USD">79.00</s:price>
+      <s:sku>1412</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452914626605</id>
+      <title>l</title>
+      <s:price currency="USD">79.00</s:price>
+      <s:sku>1413</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452914626605</id>
+      <title>xl</title>
+      <s:price currency="USD">79.00</s:price>
+      <s:sku>1414</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452914626605</id>
+      <title>xxl</title>
+      <s:price currency="USD">79.00</s:price>
+      <s:sku>1415</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lezada-fashion.myshopify.com/fr/products/4452900831277</id>
+    <published>2019-12-28T00:11:50-05:00</published>
+    <updated>2019-12-28T00:11:50-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://lezada-fashion.myshopify.com/fr/products/mens-x-temp-performance-polo-shirt"/>
+    <title>Men&apos;s X-Temp Performance Polo Shirt</title>
+    <s:type>Type 6</s:type>
+    <s:vendor>Vendor 6</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0030/8799/0829/products/p6_57abce11-06f1-4322-8529-70fa4630eabd.png?v=1577510084"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Fournisseur : </strong>Vendor 6<br>
+        <strong>Type : </strong>Type 6<br>
+        <strong>Prix : </strong>
+            55.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+<p>Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</p>
+[short_description]
+<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.</p>
+[/short_description] [product_description]
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+<p>Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</p>
+<p>[/product_description]</p>
+<p>[product_video]https://www.youtube.com/watch?v=2df62ekI9UY[/product_video]</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>blue</s:tag>
+    <s:tag>green</s:tag>
+    <s:tag>l</s:tag>
+    <s:tag>m</s:tag>
+    <s:tag>red</s:tag>
+    <s:tag>s</s:tag>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452900831277</id>
+      <title>s / red</title>
+      <s:price currency="USD">55.00</s:price>
+      <s:sku>201</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452900831277</id>
+      <title>s / green</title>
+      <s:price currency="USD">55.00</s:price>
+      <s:sku>202</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452900831277</id>
+      <title>s / blue</title>
+      <s:price currency="USD">55.00</s:price>
+      <s:sku>203</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452900831277</id>
+      <title>m / red</title>
+      <s:price currency="USD">55.00</s:price>
+      <s:sku>204</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452900831277</id>
+      <title>m / green</title>
+      <s:price currency="USD">55.00</s:price>
+      <s:sku>205</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452900831277</id>
+      <title>m / blue</title>
+      <s:price currency="USD">55.00</s:price>
+      <s:sku>206</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452900831277</id>
+      <title>l / red</title>
+      <s:price currency="USD">55.00</s:price>
+      <s:sku>207</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452900831277</id>
+      <title>l / green</title>
+      <s:price currency="USD">55.00</s:price>
+      <s:sku>208</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452900831277</id>
+      <title>l / blue</title>
+      <s:price currency="USD">55.00</s:price>
+      <s:sku>209</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+    <published>2019-12-28T00:05:20-05:00</published>
+    <updated>2019-12-28T00:05:20-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://lezada-fashion.myshopify.com/fr/products/mens-v-neck-t-shirts-multipacks"/>
+    <title>Men&apos;s V-Neck T-Shirts Multipacks</title>
+    <s:type>Type 3</s:type>
+    <s:vendor>Vendor 3</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0030/8799/0829/products/p4_891a340a-8fd3-4220-92c4-048db54b3716.png?v=1577509633"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Fournisseur : </strong>Vendor 3<br>
+        <strong>Type : </strong>Type 3<br>
+        <strong>Prix : </strong>
+            40.00 - 70.00
+            <a href="https://lezada-fashion.myshopify.com/fr/products/mens-v-neck-t-shirts-multipacks">(100 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+<p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.</p>
+[short_description]
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+[/short_description] [product_description]
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+<p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.</p>
+<p>[/product_description]</p>
+<p>[product_video]https://www.youtube.com/watch?v=2df62ekI9UY[/product_video]</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>black</s:tag>
+    <s:tag>fiber</s:tag>
+    <s:tag>l</s:tag>
+    <s:tag>leather</s:tag>
+    <s:tag>m</s:tag>
+    <s:tag>metal</s:tag>
+    <s:tag>orange</s:tag>
+    <s:tag>pink</s:tag>
+    <s:tag>purple</s:tag>
+    <s:tag>resin</s:tag>
+    <s:tag>s</s:tag>
+    <s:tag>silver</s:tag>
+    <s:tag>slag</s:tag>
+    <s:tag>violet</s:tag>
+    <s:tag>xl</s:tag>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>s / purple / metal</title>
+      <s:price currency="USD">70.00</s:price>
+      <s:sku>1110</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>s / purple / resin</title>
+      <s:price currency="USD">69.00</s:price>
+      <s:sku>1111</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>s / purple / leather</title>
+      <s:price currency="USD">68.00</s:price>
+      <s:sku>1112</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>s / purple / slag</title>
+      <s:price currency="USD">67.00</s:price>
+      <s:sku>1113</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>s / purple / fiber</title>
+      <s:price currency="USD">64.00</s:price>
+      <s:sku>1114</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>s / violet / metal</title>
+      <s:price currency="USD">65.00</s:price>
+      <s:sku>1115</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>s / violet / resin</title>
+      <s:price currency="USD">66.00</s:price>
+      <s:sku>1116</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>s / violet / leather</title>
+      <s:price currency="USD">61.00</s:price>
+      <s:sku>1117</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>s / violet / slag</title>
+      <s:price currency="USD">62.00</s:price>
+      <s:sku>1118</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>s / violet / fiber</title>
+      <s:price currency="USD">60.00</s:price>
+      <s:sku>1119</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>s / black / metal</title>
+      <s:price currency="USD">59.00</s:price>
+      <s:sku>1120</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>s / black / resin</title>
+      <s:price currency="USD">58.00</s:price>
+      <s:sku>1121</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>s / black / leather</title>
+      <s:price currency="USD">57.00</s:price>
+      <s:sku>1122</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>s / black / slag</title>
+      <s:price currency="USD">40.00</s:price>
+      <s:sku>1123</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>s / black / fiber</title>
+      <s:price currency="USD">41.00</s:price>
+      <s:sku>1124</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>s / pink / metal</title>
+      <s:price currency="USD">42.00</s:price>
+      <s:sku>1125</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>s / pink / resin</title>
+      <s:price currency="USD">43.00</s:price>
+      <s:sku>1126</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>s / pink / leather</title>
+      <s:price currency="USD">44.00</s:price>
+      <s:sku>1127</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>s / pink / slag</title>
+      <s:price currency="USD">55.00</s:price>
+      <s:sku>1128</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>s / pink / fiber</title>
+      <s:price currency="USD">56.00</s:price>
+      <s:sku>1129</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>s / orange / metal</title>
+      <s:price currency="USD">70.00</s:price>
+      <s:sku>1130</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>s / orange / resin</title>
+      <s:price currency="USD">55.00</s:price>
+      <s:sku>1131</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>s / orange / leather</title>
+      <s:price currency="USD">44.00</s:price>
+      <s:sku>1132</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>s / orange / slag</title>
+      <s:price currency="USD">47.00</s:price>
+      <s:sku>1133</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>s / orange / fiber</title>
+      <s:price currency="USD">49.00</s:price>
+      <s:sku>1134</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>m / purple / metal</title>
+      <s:price currency="USD">51.00</s:price>
+      <s:sku>1135</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>m / purple / resin</title>
+      <s:price currency="USD">52.00</s:price>
+      <s:sku>1136</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>m / purple / leather</title>
+      <s:price currency="USD">53.00</s:price>
+      <s:sku>1137</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>m / purple / slag</title>
+      <s:price currency="USD">56.00</s:price>
+      <s:sku>1138</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>m / purple / fiber</title>
+      <s:price currency="USD">57.00</s:price>
+      <s:sku>1139</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>m / violet / metal</title>
+      <s:price currency="USD">60.00</s:price>
+      <s:sku>1140</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>m / violet / resin</title>
+      <s:price currency="USD">70.00</s:price>
+      <s:sku>1141</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>m / violet / leather</title>
+      <s:price currency="USD">66.00</s:price>
+      <s:sku>1142</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>m / violet / slag</title>
+      <s:price currency="USD">66.00</s:price>
+      <s:sku>1143</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>m / violet / fiber</title>
+      <s:price currency="USD">66.00</s:price>
+      <s:sku>1144</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>m / black / metal</title>
+      <s:price currency="USD">55.00</s:price>
+      <s:sku>1145</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>m / black / resin</title>
+      <s:price currency="USD">51.00</s:price>
+      <s:sku>1146</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>m / black / leather</title>
+      <s:price currency="USD">52.00</s:price>
+      <s:sku>1147</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>m / black / slag</title>
+      <s:price currency="USD">53.00</s:price>
+      <s:sku>1148</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>m / black / fiber</title>
+      <s:price currency="USD">54.00</s:price>
+      <s:sku>1149</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>m / pink / metal</title>
+      <s:price currency="USD">54.00</s:price>
+      <s:sku>1150</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>m / pink / resin</title>
+      <s:price currency="USD">51.00</s:price>
+      <s:sku>1151</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>m / pink / leather</title>
+      <s:price currency="USD">52.00</s:price>
+      <s:sku>1152</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>m / pink / slag</title>
+      <s:price currency="USD">53.00</s:price>
+      <s:sku>1153</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>m / pink / fiber</title>
+      <s:price currency="USD">44.00</s:price>
+      <s:sku>1154</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>m / orange / metal</title>
+      <s:price currency="USD">48.00</s:price>
+      <s:sku>1155</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>m / orange / resin</title>
+      <s:price currency="USD">49.00</s:price>
+      <s:sku>1156</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>m / orange / leather</title>
+      <s:price currency="USD">41.00</s:price>
+      <s:sku>1157</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>m / orange / slag</title>
+      <s:price currency="USD">40.00</s:price>
+      <s:sku>1158</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>m / orange / fiber</title>
+      <s:price currency="USD">41.00</s:price>
+      <s:sku>1159</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>l / purple / metal</title>
+      <s:price currency="USD">42.00</s:price>
+      <s:sku>1160</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>l / purple / resin</title>
+      <s:price currency="USD">43.00</s:price>
+      <s:sku>1161</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>l / purple / leather</title>
+      <s:price currency="USD">44.00</s:price>
+      <s:sku>1162</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>l / purple / slag</title>
+      <s:price currency="USD">45.00</s:price>
+      <s:sku>1163</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>l / purple / fiber</title>
+      <s:price currency="USD">46.00</s:price>
+      <s:sku>1164</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>l / violet / metal</title>
+      <s:price currency="USD">47.00</s:price>
+      <s:sku>1165</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>l / violet / resin</title>
+      <s:price currency="USD">48.00</s:price>
+      <s:sku>1166</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>l / violet / leather</title>
+      <s:price currency="USD">49.00</s:price>
+      <s:sku>1167</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>l / violet / slag</title>
+      <s:price currency="USD">50.00</s:price>
+      <s:sku>1168</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>l / violet / fiber</title>
+      <s:price currency="USD">51.00</s:price>
+      <s:sku>1169</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>l / black / metal</title>
+      <s:price currency="USD">52.00</s:price>
+      <s:sku>1170</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>l / black / resin</title>
+      <s:price currency="USD">53.00</s:price>
+      <s:sku>1171</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>l / black / leather</title>
+      <s:price currency="USD">54.00</s:price>
+      <s:sku>1172</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>l / black / slag</title>
+      <s:price currency="USD">70.00</s:price>
+      <s:sku>1173</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>l / black / fiber</title>
+      <s:price currency="USD">45.00</s:price>
+      <s:sku>1174</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>l / pink / metal</title>
+      <s:price currency="USD">55.00</s:price>
+      <s:sku>1175</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>l / pink / resin</title>
+      <s:price currency="USD">64.00</s:price>
+      <s:sku>1176</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>l / pink / leather</title>
+      <s:price currency="USD">66.00</s:price>
+      <s:sku>1177</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>l / pink / slag</title>
+      <s:price currency="USD">67.00</s:price>
+      <s:sku>1178</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>l / pink / fiber</title>
+      <s:price currency="USD">68.00</s:price>
+      <s:sku>1179</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>l / orange / metal</title>
+      <s:price currency="USD">70.00</s:price>
+      <s:sku>1180</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>l / orange / resin</title>
+      <s:price currency="USD">60.00</s:price>
+      <s:sku>1181</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>l / orange / leather</title>
+      <s:price currency="USD">44.00</s:price>
+      <s:sku>1182</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>l / orange / slag</title>
+      <s:price currency="USD">42.00</s:price>
+      <s:sku>1183</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>l / orange / fiber</title>
+      <s:price currency="USD">42.00</s:price>
+      <s:sku>1184</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>xl / purple / metal</title>
+      <s:price currency="USD">70.00</s:price>
+      <s:sku>1185</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>xl / purple / resin</title>
+      <s:price currency="USD">55.00</s:price>
+      <s:sku>1186</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>xl / purple / leather</title>
+      <s:price currency="USD">56.00</s:price>
+      <s:sku>1187</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>xl / purple / slag</title>
+      <s:price currency="USD">45.00</s:price>
+      <s:sku>1188</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>xl / purple / fiber</title>
+      <s:price currency="USD">40.00</s:price>
+      <s:sku>1189</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>xl / violet / metal</title>
+      <s:price currency="USD">70.00</s:price>
+      <s:sku>1190</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>xl / violet / resin</title>
+      <s:price currency="USD">55.00</s:price>
+      <s:sku>1191</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>xl / violet / leather</title>
+      <s:price currency="USD">56.00</s:price>
+      <s:sku>1192</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>xl / violet / slag</title>
+      <s:price currency="USD">57.00</s:price>
+      <s:sku>1193</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>xl / violet / fiber</title>
+      <s:price currency="USD">58.00</s:price>
+      <s:sku>1194</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>xl / black / metal</title>
+      <s:price currency="USD">59.00</s:price>
+      <s:sku>1195</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>xl / black / resin</title>
+      <s:price currency="USD">66.00</s:price>
+      <s:sku>1196</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>xl / black / leather</title>
+      <s:price currency="USD">44.00</s:price>
+      <s:sku>1197</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>xl / black / slag</title>
+      <s:price currency="USD">50.00</s:price>
+      <s:sku>1198</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>xl / black / fiber</title>
+      <s:price currency="USD">51.00</s:price>
+      <s:sku>1199</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>xl / pink / metal</title>
+      <s:price currency="USD">52.00</s:price>
+      <s:sku>1200</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>xl / pink / resin</title>
+      <s:price currency="USD">70.00</s:price>
+      <s:sku>1201</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>xl / pink / leather</title>
+      <s:price currency="USD">66.00</s:price>
+      <s:sku>1202</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>xl / pink / slag</title>
+      <s:price currency="USD">67.00</s:price>
+      <s:sku>1203</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>xl / pink / fiber</title>
+      <s:price currency="USD">68.00</s:price>
+      <s:sku>1204</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>xl / orange / metal</title>
+      <s:price currency="USD">69.00</s:price>
+      <s:sku>1205</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>xl / orange / resin</title>
+      <s:price currency="USD">62.00</s:price>
+      <s:sku>1206</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>xl / orange / leather</title>
+      <s:price currency="USD">63.00</s:price>
+      <s:sku>1207</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>xl / orange / slag</title>
+      <s:price currency="USD">64.00</s:price>
+      <s:sku>1208</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452879335469</id>
+      <title>xl / orange / fiber</title>
+      <s:price currency="USD">61.00</s:price>
+      <s:sku>1209</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lezada-fashion.myshopify.com/fr/products/4452865540141</id>
+    <published>2019-12-28T00:02:07-05:00</published>
+    <updated>2019-12-28T00:02:07-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://lezada-fashion.myshopify.com/fr/products/mens-classic-jersey-t-shirt"/>
+    <title>Men&apos;s Classic Jersey T-Shirt</title>
+    <s:type>Type 2</s:type>
+    <s:vendor>Vendor 2</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0030/8799/0829/products/p3_4c725296-0814-4a6f-865f-88a455492362.png?v=1577509391"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Fournisseur : </strong>Vendor 2<br>
+        <strong>Type : </strong>Type 2<br>
+        <strong>Prix : </strong>
+            80.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+[new_products]300[/new_products] [short_description]
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+[/short_description] [product_description]
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+<p>[/product_description]</p>
+<p>[product_video]https://www.youtube.com/watch?v=2df62ekI9UY[/product_video]</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>gold</s:tag>
+    <s:tag>gray</s:tag>
+    <s:tag>l</s:tag>
+    <s:tag>m</s:tag>
+    <s:tag>magenta</s:tag>
+    <s:tag>maroon</s:tag>
+    <s:tag>navy</s:tag>
+    <s:tag>xl</s:tag>
+    <s:tag>xxl</s:tag>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452865540141</id>
+      <title>m / gold</title>
+      <s:price currency="USD">80.00</s:price>
+      <s:sku>1110</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452865540141</id>
+      <title>m / gray</title>
+      <s:price currency="USD">80.00</s:price>
+      <s:sku>1111</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452865540141</id>
+      <title>m / magenta</title>
+      <s:price currency="USD">80.00</s:price>
+      <s:sku>1112</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452865540141</id>
+      <title>m / maroon</title>
+      <s:price currency="USD">80.00</s:price>
+      <s:sku>1113</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452865540141</id>
+      <title>m / navy</title>
+      <s:price currency="USD">80.00</s:price>
+      <s:sku>1114</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452865540141</id>
+      <title>l / gold</title>
+      <s:price currency="USD">80.00</s:price>
+      <s:sku>1115</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452865540141</id>
+      <title>l / gray</title>
+      <s:price currency="USD">80.00</s:price>
+      <s:sku>1116</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452865540141</id>
+      <title>l / magenta</title>
+      <s:price currency="USD">80.00</s:price>
+      <s:sku>1117</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452865540141</id>
+      <title>l / maroon</title>
+      <s:price currency="USD">80.00</s:price>
+      <s:sku>1118</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452865540141</id>
+      <title>l / navy</title>
+      <s:price currency="USD">80.00</s:price>
+      <s:sku>1119</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452865540141</id>
+      <title>xl / gold</title>
+      <s:price currency="USD">80.00</s:price>
+      <s:sku>1120</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452865540141</id>
+      <title>xl / gray</title>
+      <s:price currency="USD">80.00</s:price>
+      <s:sku>1121</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452865540141</id>
+      <title>xl / magenta</title>
+      <s:price currency="USD">80.00</s:price>
+      <s:sku>1122</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452865540141</id>
+      <title>xl / maroon</title>
+      <s:price currency="USD">80.00</s:price>
+      <s:sku>1123</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452865540141</id>
+      <title>xl / navy</title>
+      <s:price currency="USD">80.00</s:price>
+      <s:sku>1124</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452865540141</id>
+      <title>xxl / gold</title>
+      <s:price currency="USD">80.00</s:price>
+      <s:sku>1125</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452865540141</id>
+      <title>xxl / gray</title>
+      <s:price currency="USD">80.00</s:price>
+      <s:sku>1126</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452865540141</id>
+      <title>xxl / magenta</title>
+      <s:price currency="USD">80.00</s:price>
+      <s:sku>1127</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452865540141</id>
+      <title>xxl / maroon</title>
+      <s:price currency="USD">80.00</s:price>
+      <s:sku>1128</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452865540141</id>
+      <title>xxl / navy</title>
+      <s:price currency="USD">80.00</s:price>
+      <s:sku>1129</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://lezada-fashion.myshopify.com/fr/products/4452821205037</id>
+    <published>2019-12-27T23:46:37-05:00</published>
+    <updated>2019-12-27T23:46:37-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://lezada-fashion.myshopify.com/fr/products/mens-classic-jersey"/>
+    <title>Men&apos;s Classic Jersey</title>
+    <s:type>Type 1</s:type>
+    <s:vendor>Vendor 1</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0030/8799/0829/products/p1.png?v=1577508484"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Fournisseur : </strong>Vendor 1<br>
+        <strong>Type : </strong>Type 1<br>
+        <strong>Prix : </strong>
+            110.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+[new_products]300[/new_products] [short_description]
+<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,</p>
+[/short_description] [product_description]
+<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+<p>[/product_description]</p>
+<p>[product_video]https://www.youtube.com/watch?v=2df62ekI9UY[/product_video]</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>blue</s:tag>
+    <s:tag>green</s:tag>
+    <s:tag>l</s:tag>
+    <s:tag>m</s:tag>
+    <s:tag>red</s:tag>
+    <s:tag>s</s:tag>
+    <s:tag>white</s:tag>
+    <s:tag>xl</s:tag>
+    <s:tag>yellow</s:tag>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452821205037</id>
+      <title>s / red</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1510</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452821205037</id>
+      <title>s / green</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1511</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452821205037</id>
+      <title>s / blue</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1512</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452821205037</id>
+      <title>s / yellow</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1513</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452821205037</id>
+      <title>s / white</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1514</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452821205037</id>
+      <title>m / red</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1515</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452821205037</id>
+      <title>m / green</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1516</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452821205037</id>
+      <title>m / blue</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1517</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452821205037</id>
+      <title>m / yellow</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1518</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452821205037</id>
+      <title>m / white</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1519</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452821205037</id>
+      <title>l / red</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1520</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452821205037</id>
+      <title>l / green</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1521</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452821205037</id>
+      <title>l / blue</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1522</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452821205037</id>
+      <title>l / yellow</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1523</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452821205037</id>
+      <title>l / white</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1524</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452821205037</id>
+      <title>xl / red</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1525</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452821205037</id>
+      <title>xl / green</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1526</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452821205037</id>
+      <title>xl / blue</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1527</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452821205037</id>
+      <title>xl / yellow</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1528</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://lezada-fashion.myshopify.com/fr/products/4452821205037</id>
+      <title>xl / white</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku>1529</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+</feed>

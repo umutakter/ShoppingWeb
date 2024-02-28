@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ShoppingDAL.Repositories
 {
-    public class UserRepository : IRepository<User>
+    public class UserRepository : BaseRepository<User>
     {
         private readonly string connectionString;
         private SqlConnection GetConnection()
@@ -26,24 +26,24 @@ namespace ShoppingDAL.Repositories
             throw new NotImplementedException();
         }
 
-        public void Insert(User model)
-        {
-            using (SqlConnection connection = GetConnection())
-            {
-                connection.Open();
+        //public void Insert(User model)
+        //{
+        //    using (SqlConnection connection = GetConnection())
+        //    {
+        //        connection.Open();
 
-                using (SqlCommand command = new SqlCommand("INSERT INTO Users (Username, Password, Firstname, LastName, Email, Gender) VALUES (@Username, @Password, @Firstname, @LastName, @Email, @Gender)", connection))
-                {
-                    command.Parameters.AddWithValue("@Username", model.Username);
-                    command.Parameters.AddWithValue("@Password", model.Password);
-                    command.Parameters.AddWithValue("@Firstname", model.FirstName);
-                    command.Parameters.AddWithValue("@LastName", model.LastName);
-                    command.Parameters.AddWithValue("@Email", model.Email);
-                    command.Parameters.AddWithValue("@Gender", model.Gender);
-                    command.ExecuteNonQuery();
-                }
-            }
-        }
+        //        using (SqlCommand command = new SqlCommand("INSERT INTO Users (Username, Password, Firstname, LastName, Email, Gender) VALUES (@Username, @Password, @Firstname, @LastName, @Email, @Gender)", connection))
+        //        {
+        //            command.Parameters.AddWithValue("@Username", model.Username);
+        //            command.Parameters.AddWithValue("@Password", model.Password);
+        //            command.Parameters.AddWithValue("@Firstname", model.FirstName);
+        //            command.Parameters.AddWithValue("@LastName", model.LastName);
+        //            command.Parameters.AddWithValue("@Email", model.Email);
+        //            command.Parameters.AddWithValue("@Gender", model.Gender);
+        //            command.ExecuteNonQuery();
+        //        }
+        //    }
+        //}
 
         public IList<User> SelectAll()
         {

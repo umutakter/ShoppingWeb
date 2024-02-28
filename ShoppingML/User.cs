@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ShoppingML.Attributes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -9,6 +10,9 @@ namespace ShoppingML
 {
     public class User
     {
+        public const string TABLE_NAME = "Users";
+
+        [IgnoreSQL]
         public int ID { get; set; }
 
         [Required]

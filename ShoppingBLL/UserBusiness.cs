@@ -14,13 +14,36 @@ namespace ShoppingBLL
         {
             try
             {
-                bool isSuccess;
                 UserRepository repo = new UserRepository();
                 repo.Insert(model);
             }
             catch (Exception ex)
             {
                 throw new Exception("BL:UserBusiness::InsertUser::Error occured.", ex);
+            }
+        }
+        public void UpdateUser(User model)
+        {
+            try
+            {
+                UserRepository repo = new UserRepository();
+                repo.Update(model);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("BL:UserBusiness::UpdateUser::Error occured.", ex);
+            }
+        }
+        public List<User> SelectAllUser()
+        {
+            try
+            {
+                UserRepository repo = new UserRepository();
+                return repo.SelectAll<User>();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("BL:UserBusiness::UpdateUser::Error occured.", ex);
             }
         }
     }

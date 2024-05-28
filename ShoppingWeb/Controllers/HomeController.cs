@@ -21,7 +21,8 @@ namespace ShoppingWeb.Controllers
             var bl = new UserBusiness();
             User user = new User()
             {
-                Username = "Umutakter",
+                ID = 4,
+                Username = "degşstirildi",
                 Password = "123234",
                 FirstName= "Umut",
                 LastName="Akrer",
@@ -29,6 +30,8 @@ namespace ShoppingWeb.Controllers
                 Gender ="Male"
             };
             bl.InsertUser(user);
+            bl.UpdateUser(user);
+            var response = bl.SelectAllUser();
             return View();
         }
 

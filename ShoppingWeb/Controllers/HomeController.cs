@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using ShoppingBLL;
-using ShoppingML;
+using ShoppingDAL.Repositories;
+using ShoppingML.DbModels;
 using ShoppingWeb.Models;
 using System.Diagnostics;
 
@@ -18,7 +18,7 @@ namespace ShoppingWeb.Controllers
 
         public IActionResult Index()
         {
-            var bl = new UserBusiness();
+            var repository = new UserRepository();
             User user = new User()
             {
                 ID = 4,
@@ -29,9 +29,9 @@ namespace ShoppingWeb.Controllers
                 Email ="akterumut@hotmail.com",
                 Gender ="Male"
             };
-            bl.InsertUser(user);
-            bl.UpdateUser(user);
-            var response = bl.SelectAllUser();
+            repository.InsertUser(user);
+            repository.UpdateUser(user);
+            var response = repository.SelectAllUser();
             return View();
         }
 

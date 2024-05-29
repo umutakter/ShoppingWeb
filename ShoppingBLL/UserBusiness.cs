@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ShoppingDAL.Repositories;
+using CoreLibrary;
 
 namespace ShoppingBLL
 {
@@ -14,8 +15,7 @@ namespace ShoppingBLL
         {
             try
             {
-                UserRepository repo = new UserRepository();
-                repo.Insert(model);
+                DB.Insert(model);
             }
             catch (Exception ex)
             {
@@ -26,8 +26,7 @@ namespace ShoppingBLL
         {
             try
             {
-                UserRepository repo = new UserRepository();
-                repo.Update(model);
+                DB.Update(model);
             }
             catch (Exception ex)
             {
@@ -38,8 +37,7 @@ namespace ShoppingBLL
         {
             try
             {
-                UserRepository repo = new UserRepository();
-                return repo.SelectAll<User>();
+                return DB.SelectAll<User>();
             }
             catch (Exception ex)
             {

@@ -1,14 +1,13 @@
-﻿using Microsoft.VisualBasic;
-using System;
-using System.Collections;
+﻿using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ShoppingDAL.Repositories
+namespace CoreLibrary
 {
     public class BaseRepository<T> where T : class
     {
@@ -19,7 +18,7 @@ namespace ShoppingDAL.Repositories
         }
         public BaseRepository()
         {
-            this.connectionString = "Server=DESKTOP-VPPU1BG;Database=ShoppingDb;Integrated Security=True;";
+            this.connectionString = BaseSettings.ConnectionString;
         }
         public bool Update(T model)
         {
@@ -27,7 +26,7 @@ namespace ShoppingDAL.Repositories
             Type type = typeof(T);
             PropertyInfo[] properties = type.GetProperties();
             Dictionary<string, object> columns = new Dictionary<string, object>();
-            int ID = 0;  
+            int ID = 0;
 
             string tableName = type.GetField("TABLE_NAME", BindingFlags.Public | BindingFlags.Static)!.GetValue(null)!.ToString()!;
             foreach (PropertyInfo property in properties)
@@ -68,7 +67,7 @@ namespace ShoppingDAL.Repositories
             PropertyInfo[] properties = type.GetProperties();
             Dictionary<string, object> columns = new Dictionary<string, object>();
 
-            string tableName  = type.GetField("TABLE_NAME", BindingFlags.Public | BindingFlags.Static)!.GetValue(null)!.ToString()!;
+            string tableName = type.GetField("TABLE_NAME", BindingFlags.Public | BindingFlags.Static)!.GetValue(null)!.ToString()!;
             foreach (PropertyInfo property in properties)
             {
                 if (property.GetCustomAttributes(true).FirstOrDefault()!.GetType().Name != "IgnoreSQLAttribute")
@@ -102,7 +101,7 @@ namespace ShoppingDAL.Repositories
             Type type = typeof(T);
             string tableName = type.GetField("TABLE_NAME", BindingFlags.Public | BindingFlags.Static)!.GetValue(null)!.ToString()!;
             List<T> resultList = new List<T>();
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            using (SqlConnection connection = GetConnection())
             {
                 using (SqlCommand command = new SqlCommand($"SELECT * FROM {tableName}", connection))
                 {

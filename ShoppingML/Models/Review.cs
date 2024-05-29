@@ -1,7 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using ShoppingML.DbModels;
 
-namespace ShoppingML
+namespace ShoppingML.Models
 {
     public class Review
     {

@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingWeb", "ShoppingWeb\ShoppingWeb.csproj", "{A483F7FA-2189-4390-ACE6-AEC865800442}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingWeb", "ShoppingWeb\ShoppingWeb.csproj", "{A483F7FA-2189-4390-ACE6-AEC865800442}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBLL", "ShoppingBLL\ShoppingBLL.csproj", "{8A78F553-3993-4B78-A1E1-42EAAAAA4A96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingBLL", "ShoppingBLL\ShoppingBLL.csproj", "{8A78F553-3993-4B78-A1E1-42EAAAAA4A96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingDAL", "ShoppingDAL\ShoppingDAL.csproj", "{6C259ABA-762D-412C-9ACE-FDF62129BE45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingDAL", "ShoppingDAL\ShoppingDAL.csproj", "{6C259ABA-762D-412C-9ACE-FDF62129BE45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingML", "ShoppingML\ShoppingML.csproj", "{A336805A-FBE9-45A1-B53A-0D56B1BB68FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingML", "ShoppingML\ShoppingML.csproj", "{A336805A-FBE9-45A1-B53A-0D56B1BB68FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreLibrary", "CoreLibrary\CoreLibrary.csproj", "{3BE441EB-5869-4DD3-9C79-32A27D7E9C81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{A336805A-FBE9-45A1-B53A-0D56B1BB68FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A336805A-FBE9-45A1-B53A-0D56B1BB68FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A336805A-FBE9-45A1-B53A-0D56B1BB68FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BE441EB-5869-4DD3-9C79-32A27D7E9C81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE441EB-5869-4DD3-9C79-32A27D7E9C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE441EB-5869-4DD3-9C79-32A27D7E9C81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE441EB-5869-4DD3-9C79-32A27D7E9C81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

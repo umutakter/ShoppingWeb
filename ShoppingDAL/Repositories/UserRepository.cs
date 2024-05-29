@@ -1,4 +1,5 @@
-﻿using ShoppingML;
+﻿using CoreLibrary;
+using ShoppingML.DbModels;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -8,29 +9,42 @@ using System.Threading.Tasks;
 
 namespace ShoppingDAL.Repositories
 {
-    public class UserRepository : BaseRepository<User>
+    public class UserRepository
     {
-        private readonly string connectionString;
-        private SqlConnection GetConnection()
-        {
-            return new SqlConnection(connectionString);
-        }
-        public UserRepository()
-        {
-            this.connectionString = "Server=DESKTOP-VPPU1BG;Database=ShoppingDb;Integrated Security=True;";
-        }
-        public bool DeletedById(int id)
-        {
-            throw new NotImplementedException();
-        }
-        public IList<User> SelectAll()
-        {
-            throw new NotImplementedException();
-        }
-        public User SelectedById(int id)
-        {
-            throw new NotImplementedException();
-        }
+        private readonly BaseRepository<User> DB = new BaseRepository<User>();
 
+        public void InsertUser(User model)
+        {
+            try
+            {
+                DB.Insert(model);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("BL:UserBusiness::InsertUser::Error occured.", ex);
+            }
+        }
+        public void UpdateUser(User model)
+        {
+            try
+            {
+                DB.Update(model);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("BL:UserBusiness::UpdateUser::Error occured.", ex);
+            }
+        }
+        public List<User> SelectAllUser()
+        {
+            try
+            {
+                return DB.SelectAll<User>();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("BL:UserBusiness::UpdateUser::Error occured.", ex);
+            }
+        }
     }
 }

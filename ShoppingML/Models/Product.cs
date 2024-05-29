@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace ShoppingML
+namespace ShoppingML.Models
 {
     public class Product
     {

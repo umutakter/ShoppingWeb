@@ -15,46 +15,16 @@ namespace ShoppingDAL.Repositories
 
         public void InsertUser(User model)
         {
-            try
-            {
-                using (var db = DB)
-                {
-                    db.Insert(model);
-
-                }
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("ShoppingDAL:UserRepository::InsertUser::Error occured.", ex);
-            }
+            using (var db = DB) db.Insert(model);
         }
         public void UpdateUser(User model)
         {
-            try
-            {
-                using (var db = DB)
-                {
-                    db.Update(model);
-                }
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("ShoppingDAL:UserRepository::UpdateUser::Error occured.", ex);
-            }
+            using (var db = DB) db.Update(model);
         }
         public List<User> SelectAllUser()
         {
-            try
-            {
-                using (var db = DB)
-                {
-                    return db.SelectAll();
-                }
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("ShoppingDAL:UserRepository::SelectAllUser::Error occured.", ex);
-            }
+            using (var db = DB) return db.SelectAll();
+            
         }
     }
 }

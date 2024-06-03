@@ -1,4 +1,9 @@
 using CoreLibrary;
+using CoreLibrary.Logging;
+using log4net;
+using log4net.Config;
+using log4net.Util;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,8 +27,17 @@ DbCoreConfig.SetConfig(conf =>
         connection => connection.ConnectionString = builder.Configuration.GetConnectionString("DefaultConnection")
         );
 });
-
-
+LogLog.InternalDebugging = true;
+try
+{
+    var logRepository = LogManager.GetRepository(Assembly.GetExecutingAssembly());
+    XmlConfigurator.Configure(logRepository, new FileInfo(Logger.LogConfigPath));
+    Console.WriteLine("log4net configuration loaded successfully.");
+}
+catch (Exception ex)
+{
+    Console.WriteLine($"Error configuring log4net: {ex.Message}");
+}
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 

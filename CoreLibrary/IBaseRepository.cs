@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CoreLibrary
 {
-    public interface IBaseRepository<T> : IDisposable
+    public interface IBaseRepository<T> : IDisposable where T : CoreDbModel
     {
         bool Update(T model);
         bool Insert(T model);

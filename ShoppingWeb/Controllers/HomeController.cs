@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using CoreLibrary.Logging;
+using log4net;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using ShoppingDAL.Repositories;
 using ShoppingML.DbModels;
@@ -9,20 +11,16 @@ namespace ShoppingWeb.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
+        private static readonly ILog log = Logger.GetLogger(typeof(HomeController));
 
         public IActionResult Index()
         {
+            log.Info("Index action executed.");
             var repository = new UserRepository();
             User user = new User()
             {
                 ID = 4,
-                Username = "degşstirildi",
+                Username = "UmutAkter",
                 Password = "123234",
                 FirstName= "Umut",
                 LastName="Akrer",

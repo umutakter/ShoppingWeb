@@ -17,33 +17,43 @@ namespace ShoppingDAL.Repositories
         {
             try
             {
-                DB.Insert(model);
+                using (var db = DB)
+                {
+                    db.Insert(model);
+
+                }
             }
             catch (Exception ex)
             {
-                throw new Exception("BL:UserBusiness::InsertUser::Error occured.", ex);
+                throw new Exception("ShoppingDAL:UserRepository::InsertUser::Error occured.", ex);
             }
         }
         public void UpdateUser(User model)
         {
             try
             {
-                DB.Update(model);
+                using (var db = DB)
+                {
+                    db.Update(model);
+                }
             }
             catch (Exception ex)
             {
-                throw new Exception("BL:UserBusiness::UpdateUser::Error occured.", ex);
+                throw new Exception("ShoppingDAL:UserRepository::UpdateUser::Error occured.", ex);
             }
         }
         public List<User> SelectAllUser()
         {
             try
             {
-                return DB.SelectAll<User>();
+                using (var db = DB)
+                {
+                    return db.SelectAll();
+                }
             }
             catch (Exception ex)
             {
-                throw new Exception("BL:UserBusiness::UpdateUser::Error occured.", ex);
+                throw new Exception("ShoppingDAL:UserRepository::SelectAllUser::Error occured.", ex);
             }
         }
     }

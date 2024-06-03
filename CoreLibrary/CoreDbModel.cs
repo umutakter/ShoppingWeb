@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace CoreLibrary
 {
-    public interface IBaseRepository<T> : IDisposable
+    public  class CoreDbModel
     {
-        bool Update(T model);
-        bool Insert(T model);
-        List<T> SelectAll();
     }
 }

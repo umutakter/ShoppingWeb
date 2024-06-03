@@ -23,13 +23,14 @@ namespace ShoppingWeb.Controllers
                 Username = "UmutAkter",
                 Password = "123234",
                 FirstName= "Umut",
-                LastName="Akrer",
+                LastName="Akter",
                 Email ="akterumut@hotmail.com",
                 Gender ="Male"
             };
             repository.InsertUser(user);
             repository.UpdateUser(user);
-            var response = repository.SelectAllUser();
+            var response1 = repository.SelectAllUser();
+            var response2 = repository.SelectUserById(5);
             return View();
         }
 

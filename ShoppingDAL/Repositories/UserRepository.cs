@@ -26,5 +26,9 @@ namespace ShoppingDAL.Repositories
             using (var db = DB) return db.SelectAll();
             
         }
+        public User SelectUserById(int id)
+        {
+            using (var db = DB ) return db.SelectById(id);  
+        }
     }
 }

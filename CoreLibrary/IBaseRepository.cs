@@ -11,5 +11,8 @@ namespace CoreLibrary
         bool Update(T model);
         bool Insert(T model);
         List<T> SelectAll();
+        T SelectById(int id);
+        void DeleteById(int id);
+
     }
 }

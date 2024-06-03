@@ -152,9 +152,7 @@ namespace CoreLibrary
                                 foreach (PropertyInfo prop in type.GetProperties())
                                 {
                                     if (reader[prop.Name] != DBNull.Value)
-                                    {
                                         prop.SetValue(model, Convert.ChangeType(reader[prop.Name], prop.PropertyType));
-                                    }
                                 }
                                 resultList.Add(model);
                             }
@@ -168,6 +166,56 @@ namespace CoreLibrary
                 log.Error($"CoreLibrary:BaseRepository::{nameof(T)}::SelectAll::Error occured.", ex);
                 throw new Exception($"CoreLibrary:BaseRepository::{nameof(T)}::SelectAll::Error occured.", ex);
             }
+        }
+
+        public T SelectById(int id)
+        {
+            try
+            {
+                Type type = typeof(T);
+                PropertyInfo[] properties = type.GetProperties();
+                string tableName = type.GetField("TABLE_NAME", BindingFlags.Public | BindingFlags.Static)!.GetValue(null)!.ToString()!;
+                string keyColumn = "";
+
+                foreach (PropertyInfo property in properties)
+                    if (property.GetCustomAttributes(true).FirstOrDefault()!.GetType().Name == "IgnoreSQLAttribute")
+                        keyColumn = property.Name;
+
+                if(keyColumn == "") 
+                    log.Info($"CoreLibrary:BaseRepository::{nameof(T)}::SelectById::KEY ALANI BULUNAMADI.");
+
+                T result = (T)Activator.CreateInstance(typeof(T))!;
+                using (var conn = GetConnection())
+                {
+                    conn.Open();
+                    using (SqlCommand command = new SqlCommand($"SELECT * FROM {tableName} WHERE {keyColumn} = {id}", (SqlConnection)conn))
+                    {
+
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                foreach (PropertyInfo prop in type.GetProperties())
+                                {
+                                    if (reader[prop.Name] != DBNull.Value)
+                                        prop.SetValue(result, Convert.ChangeType(reader[prop.Name], prop.PropertyType));
+                                }
+                            }
+                        }
+                    }
+                }
+                return result;
+            }
+            catch (Exception ex)
+            {
+                log.Error($"CoreLibrary:BaseRepository::{nameof(T)}::SelectById::Error occured.", ex);
+                throw new Exception($"CoreLibrary:BaseRepository::{nameof(T)}::SelectById::Error occured.", ex);
+            }
+        }
+
+        public void DeleteById(int id)
+        {
+            throw new NotImplementedException();
         }
         #endregion
     }

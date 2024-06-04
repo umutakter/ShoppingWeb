@@ -1,4 +1,6 @@
-﻿namespace CoreLibrary
+﻿using System.Data.SqlClient;
+
+namespace CoreLibrary
 {
     public class DbCoreConfig
     {
@@ -24,5 +26,13 @@
     public static class BaseSettings
     {
         public static string ConnectionString { get; set; }
+        public static SqlConnection Connection 
+        { 
+            get 
+            { 
+                return new SqlConnection(BaseSettings.ConnectionString); 
+            }
+            set { }
+        }
     }
 }

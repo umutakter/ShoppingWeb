@@ -11,9 +11,6 @@ namespace ShoppingDAL.Repositories
 {
     public class UserRepository: BaseRepository<User>
     {
-       public void deneme()
-        {
-            var a = connection;
-        }
+
     }
 }

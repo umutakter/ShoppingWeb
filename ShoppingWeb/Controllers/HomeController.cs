@@ -28,7 +28,7 @@ namespace ShoppingWeb.Controllers
                 Gender ="Male"
             };
             repository.Insert(user);
-            repository.Update(user);
+            //repository.Update(user);
             var response1 = repository.SelectAll();
             var response2 = repository.SelectById(5);
             return View();

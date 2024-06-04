@@ -1,4 +1,5 @@
 ﻿1. Connection sorunu çözülecek.
+--------------------------------------------
 2. Ortak dönüş tipi yapılacak.
 3. Hata ayıklaması yapılacak.
-4.
+4. Şifreleme ile iligli metotlar yazılacak.

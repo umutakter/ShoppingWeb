@@ -1,4 +1,4 @@
-﻿using CoreLibrary;
+﻿using CoreLibrary.Models;
 using ShoppingML.Attributes;
 using System.ComponentModel.DataAnnotations;
 
@@ -8,7 +8,7 @@ namespace ShoppingML.DbModels
     {
         public const string TABLE_NAME = "Users";
 
-        [IgnoreSQL]
+        [CoreKey]
         public int ID { get; set; }
 
         [Required]

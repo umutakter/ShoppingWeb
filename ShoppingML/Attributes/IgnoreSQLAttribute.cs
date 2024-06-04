@@ -1,6 +1,6 @@
 ﻿namespace ShoppingML.Attributes
 {
-    internal class IgnoreSQLAttribute : Attribute
+    internal class CoreKeyAttribute : Attribute
     {
     }
 }

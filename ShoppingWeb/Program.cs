@@ -1,4 +1,4 @@
-using CoreLibrary;
+using CoreLibrary.DbCore;
 using CoreLibrary.Logging;
 using log4net;
 using log4net.Config;

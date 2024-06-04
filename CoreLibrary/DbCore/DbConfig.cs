@@ -1,6 +1,6 @@
 ﻿using System.Data.SqlClient;
 
-namespace CoreLibrary
+namespace CoreLibrary.DbCore
 {
     public class DbCoreConfig
     {
@@ -26,12 +26,9 @@ namespace CoreLibrary
     public static class BaseSettings
     {
         public static string ConnectionString { get; set; }
-        public static SqlConnection Connection 
-        { 
-            get 
-            { 
-                return new SqlConnection(BaseSettings.ConnectionString); 
-            }
+        public static SqlConnection Connection
+        {
+            get { return new SqlConnection(ConnectionString); }
             set { }
         }
     }

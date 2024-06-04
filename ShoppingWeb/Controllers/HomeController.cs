@@ -19,7 +19,6 @@ namespace ShoppingWeb.Controllers
             var repository = new UserRepository();
             User user = new User()
             {
-                ID = 4,
                 Username = "UmutAkter",
                 Password = "123234",
                 FirstName= "Umut",
@@ -27,22 +26,14 @@ namespace ShoppingWeb.Controllers
                 Email ="akterumut@hotmail.com",
                 Gender ="Male"
             };
-            repository.Insert(user);
-            //repository.Update(user);
-            var response1 = repository.SelectAll();
-            var response2 = repository.SelectById(5);
+            int id = repository.Insert(user);
+            user.FirstName = "Degistirildi";
+            user.ID = id;
+            var response1 = repository.Update(user);
+            var response2 = repository.SelectAll();
+            var response3 = repository.SelectById(id);
+            repository.DeleteById(id);
             return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }

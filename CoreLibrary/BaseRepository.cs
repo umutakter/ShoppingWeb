@@ -157,8 +157,8 @@ namespace CoreLibrary
             }
             catch (Exception ex)
             {
-
-                throw ex;
+                log.Error($"CoreLibrary:BaseRepository::{nameof(T)}::Dispose::Error occured.", ex);
+                throw new Exception($"CoreLibrary:BaseRepository::{nameof(T)}::Dispose::Error occured.", ex);
             }
         }
 

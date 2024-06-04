@@ -27,10 +27,10 @@ namespace ShoppingWeb.Controllers
                 Email ="akterumut@hotmail.com",
                 Gender ="Male"
             };
-            repository.InsertUser(user);
-            repository.UpdateUser(user);
-            var response1 = repository.SelectAllUser();
-            var response2 = repository.SelectUserById(5);
+            repository.Insert(user);
+            repository.Update(user);
+            var response1 = repository.SelectAll();
+            var response2 = repository.SelectById(5);
             return View();
         }
 

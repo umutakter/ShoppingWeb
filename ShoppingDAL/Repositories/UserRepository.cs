@@ -9,26 +9,8 @@ using System.Threading.Tasks;
 
 namespace ShoppingDAL.Repositories
 {
-    public class UserRepository
+    public class UserRepository : BaseRepository<User>
     {
-        private readonly BaseRepository<User> DB = new BaseRepository<User>();
-
-        public void InsertUser(User model)
-        {
-            using (var db = DB) db.Insert(model);
-        }
-        public void UpdateUser(User model)
-        {
-            using (var db = DB) db.Update(model);
-        }
-        public List<User> SelectAllUser()
-        {
-            using (var db = DB) return db.SelectAll();
-            
-        }
-        public User SelectUserById(int id)
-        {
-            using (var db = DB ) return db.SelectById(id);  
-        }
+       
     }
 }

@@ -2,6 +2,7 @@
 using log4net;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.Common;
 using System.Data.SqlClient;
 using System.Diagnostics;
@@ -12,6 +13,25 @@ using System.Threading.Tasks;
 
 namespace CoreLibrary
 {
+    public static class DatabaseHelper
+    {
+        public static void ExecuteCommand(DbConnection connection, SqlCommand command)
+        {
+            if(connection.State!=ConnectionState.Open)
+                connection.Open();
+            command.ExecuteNonQuery();
+        }
+        public static SqlCommand GetCommand(DbConnection connection, string commandText)
+        {
+            if (connection.State != ConnectionState.Open)
+                connection.Open();
+            using (var command = new SqlCommand(commandText, (SqlConnection)connection))
+            {
+                return command;
+            }
+        }
+    }
+
     public class BaseRepository<T> : IBaseRepository<T> where T : CoreDbModel
     {
         private static readonly ILog log = Logger.GetLogger(typeof(BaseRepository<T>));
@@ -111,19 +131,13 @@ namespace CoreLibrary
                 }
                 columnINTO = columnINTO.Remove(0, 1);
                 columnVALUES = columnVALUES.Remove(0, 1);
-                using (var conn = GetConnection())
+                var command = DatabaseHelper.GetCommand(connection!, $"INSERT INTO {tableName} ({columnINTO}) VALUES ({columnVALUES})");
+                foreach (var key in columns.Keys)
                 {
-                    conn.Open();
-                    using (SqlCommand command = new SqlCommand($"INSERT INTO {tableName} ({columnINTO}) VALUES ({columnVALUES})", (SqlConnection)conn))
-                    {
-                        foreach (var key in columns.Keys)
-                        {
-                            object value = columns[key];
-                            command.Parameters.AddWithValue($"@{key}", value);
-                        }
-                        command.ExecuteNonQuery();
-                    }
+                    object value = columns[key];
+                    command.Parameters.AddWithValue($"@{key}", value);
                 }
+                DatabaseHelper.ExecuteCommand(connection!, command);
                 return true;
             }
             catch (Exception ex)
@@ -139,26 +153,21 @@ namespace CoreLibrary
                 Type type = typeof(T);
                 string tableName = type.GetField("TABLE_NAME", BindingFlags.Public | BindingFlags.Static)!.GetValue(null)!.ToString()!;
                 List<T> resultList = new List<T>();
-                using (var conn = GetConnection())
+                var command = DatabaseHelper.GetCommand(connection, $"SELECT * FROM {tableName}");
+                using (SqlDataReader reader = command.ExecuteReader())
                 {
-                    conn.Open();
-                    using (SqlCommand command = new SqlCommand($"SELECT * FROM {tableName}", (SqlConnection)conn))
+                    while (reader.Read())
                     {
-                        using (SqlDataReader reader = command.ExecuteReader())
+                        T model = (T)Activator.CreateInstance(typeof(T))!;
+                        foreach (PropertyInfo prop in type.GetProperties())
                         {
-                            while (reader.Read())
-                            {
-                                T model = (T)Activator.CreateInstance(typeof(T))!;
-                                foreach (PropertyInfo prop in type.GetProperties())
-                                {
-                                    if (reader[prop.Name] != DBNull.Value)
-                                        prop.SetValue(model, Convert.ChangeType(reader[prop.Name], prop.PropertyType));
-                                }
-                                resultList.Add(model);
-                            }
+                            if (reader[prop.Name] != DBNull.Value)
+                                prop.SetValue(model, Convert.ChangeType(reader[prop.Name], prop.PropertyType));
                         }
+                        resultList.Add(model);
                     }
                 }
+
                 return resultList;
             }
             catch (Exception ex)

@@ -36,7 +36,7 @@ namespace CoreLibrary
     {
         private static readonly ILog log = Logger.GetLogger(typeof(BaseRepository<T>));
         private readonly string connectionString;
-        internal DbConnection? connection;
+        protected DbConnection? connection;
         private SqlConnection GetConnection()//BU FONKSİYONA GEREK KALMAMALI!!!!!
         {
             return new SqlConnection(connectionString);

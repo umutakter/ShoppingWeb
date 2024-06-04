@@ -15,7 +15,7 @@
     <None Update="Logging\log4net.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Logging\Logs\LogFile.txt">
+    <None Update="Logging\CoreLogs\Logfile.txt">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>
   </ItemGroup>

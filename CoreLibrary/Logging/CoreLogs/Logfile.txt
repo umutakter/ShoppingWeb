@@ -1,0 +1,19 @@
+﻿2024-06-04 13:26:11,444 [9] INFO  ShoppingWeb.Controllers.HomeController - Index action executed.
+2024-06-04 13:26:56,344 [9] ERROR CoreLibrary.BaseRepository`1[[ShoppingML.DbModels.User, ShoppingML, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - CoreLibrary:BaseRepository::T::Insert::Error occured.
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - Bağlanılan uygun olarak belli bir süre içinde yanıt vermediğinden veya kurulan
+bağlantı bağlanılan ana bilgisayar yanıt vermediğinden bir bağlantı kurulamadı.)
+ ---> System.ComponentModel.Win32Exception (10060): Bağlanılan uygun olarak belli bir süre içinde yanıt vermediğinden veya kurulan
+bağlantı bağlanılan ana bilgisayar yanıt vermediğinden bir bağlantı kurulamadı.
+   at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at CoreLibrary.BaseRepository`1.Insert(T model) in C:\Projeler\Github\ShoppingWeb\CoreLibrary\BaseRepository.cs:line 116
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:10060,State:0,Class:20
+2024-06-04 13:33:48,805 [6] INFO  ShoppingWeb.Controllers.HomeController - Index action executed.

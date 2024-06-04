@@ -14,18 +14,10 @@ namespace CoreLibrary.Logging
         public static string LogConfigPath;
         static Logger()
         {
-            try
-            {
-                var logRepository = LogManager.GetRepository(Assembly.GetExecutingAssembly());
-                var logConfigFile = new FileInfo(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\..\..\CoreLibrary\Logging\log4net.config"));
-                LogConfigPath = logConfigFile.FullName;
-                XmlConfigurator.Configure(logRepository, logConfigFile);
-                Console.WriteLine("log4net configuration loaded successfully.");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error configuring log4net: {ex.Message}");
-            }
+            var logRepository = LogManager.GetRepository(Assembly.GetExecutingAssembly());
+            var logConfigFile = new FileInfo(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\..\..\CoreLibrary\Logging\log4net.config"));
+            LogConfigPath = logConfigFile.FullName;
+            XmlConfigurator.Configure(logRepository, logConfigFile);
         }
 
         public static ILog GetLogger(Type type)

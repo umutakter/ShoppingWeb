@@ -68,3 +68,75 @@ System.InvalidOperationException: ExecuteReader requires an open and available C
    at CoreLibrary.BaseRepository`1.Insert(T model) in C:\Projeler\Github\ShoppingWeb\CoreLibrary\BaseRepository.cs:line 245
 2024-06-04 19:39:24,821 [4] INFO  ShoppingWeb.Controllers.HomeController - Index action executed.
 2024-06-04 19:47:24,600 [4] INFO  ShoppingWeb.Controllers.HomeController - Index action executed.
+2024-06-05 17:57:46,912 [10] INFO  BlazorExampleWeb.Components.Pages.GetAllUser - OnInitializedAsync executed.
+2024-06-05 17:57:47,110 [10] ERROR CoreLibrary.BaseRepository`1[[ShoppingML.DbModels.User, ShoppingML, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - CoreLibrary:BaseRepository::T::SelectAll::Error occured.
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at CoreLibrary.DbCore.DbExecutor.SelectExecutor[T](DbCommand command) in C:\Projeler\Github\ShoppingWeb\CoreLibrary\DbCore\DbExecutor.cs:line 22
+   at CoreLibrary.BaseRepository`1.SelectAll() in C:\Projeler\Github\ShoppingWeb\CoreLibrary\Repository\BaseRepository.cs:line 80
+2024-06-05 17:57:49,656 [17] INFO  BlazorExampleWeb.Components.Pages.GetAllUser - OnInitializedAsync executed.
+2024-06-05 17:57:49,760 [17] ERROR CoreLibrary.BaseRepository`1[[ShoppingML.DbModels.User, ShoppingML, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - CoreLibrary:BaseRepository::T::SelectAll::Error occured.
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at CoreLibrary.DbCore.DbExecutor.SelectExecutor[T](DbCommand command) in C:\Projeler\Github\ShoppingWeb\CoreLibrary\DbCore\DbExecutor.cs:line 22
+   at CoreLibrary.BaseRepository`1.SelectAll() in C:\Projeler\Github\ShoppingWeb\CoreLibrary\Repository\BaseRepository.cs:line 80
+2024-06-05 17:59:11,683 [5] INFO  BlazorExampleWeb.Components.Pages.GetAllUser - OnInitializedAsync executed.
+2024-06-05 17:59:11,824 [5] ERROR CoreLibrary.BaseRepository`1[[ShoppingML.DbModels.User, ShoppingML, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - CoreLibrary:BaseRepository::T::SelectAll::Error occured.
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at CoreLibrary.DbCore.DbExecutor.SelectExecutor[T](DbCommand command) in C:\Projeler\Github\ShoppingWeb\CoreLibrary\DbCore\DbExecutor.cs:line 22
+   at CoreLibrary.BaseRepository`1.SelectAll() in C:\Projeler\Github\ShoppingWeb\CoreLibrary\Repository\BaseRepository.cs:line 80
+2024-06-05 17:59:14,809 [10] INFO  BlazorExampleWeb.Components.Pages.GetAllUser - OnInitializedAsync executed.
+2024-06-05 17:59:14,927 [10] ERROR CoreLibrary.BaseRepository`1[[ShoppingML.DbModels.User, ShoppingML, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - CoreLibrary:BaseRepository::T::SelectAll::Error occured.
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at CoreLibrary.DbCore.DbExecutor.SelectExecutor[T](DbCommand command) in C:\Projeler\Github\ShoppingWeb\CoreLibrary\DbCore\DbExecutor.cs:line 22
+   at CoreLibrary.BaseRepository`1.SelectAll() in C:\Projeler\Github\ShoppingWeb\CoreLibrary\Repository\BaseRepository.cs:line 80
+2024-06-05 17:59:49,441 [7] INFO  BlazorExampleWeb.Components.Pages.GetAllUser - OnInitializedAsync executed.
+2024-06-05 18:01:09,787 [5] INFO  BlazorExampleWeb.Components.Pages.GetAllUser - OnInitializedAsync executed.
+2024-06-05 18:01:45,713 [18] INFO  BlazorExampleWeb.Components.Pages.GetAllUser - OnInitializedAsync executed.
+2024-06-05 18:03:46,307 [7] INFO  BlazorExampleWeb.Components.Pages.GetAllUser - OnInitializedAsync executed.
+2024-06-05 18:04:33,873 [5] INFO  BlazorExampleWeb.Components.Pages.GetAllUser - OnInitializedAsync executed.
+2024-06-05 18:04:54,060 [10] INFO  BlazorExampleWeb.Components.Pages.GetAllUser - OnInitializedAsync executed.
+2024-06-05 18:05:13,756 [7] INFO  BlazorExampleWeb.Components.Pages.GetAllUser - OnInitializedAsync executed.
+2024-06-05 18:05:40,349 [7] INFO  BlazorExampleWeb.Components.Pages.GetAllUser - OnInitializedAsync executed.
+2024-06-05 18:09:15,892 [5] INFO  BlazorExampleWeb.Components.Pages.GetAllUser - OnInitializedAsync executed.
+2024-06-05 18:14:34,338 [7] INFO  BlazorExampleWeb.Components.Pages.GetAllUser - Component initialized.
+2024-06-05 18:14:39,092 [15] INFO  BlazorExampleWeb.Components.Pages.GetAllUser - Loading user with ID: 20
+2024-06-05 18:14:44,760 [24] INFO  BlazorExampleWeb.Components.Pages.GetAllUser - Loading user with ID: 30
+2024-06-05 18:15:36,799 [9] INFO  BlazorExampleWeb.Components.Pages.GetAllUser - Component initialized.
+2024-06-05 18:16:42,536 [7] INFO  BlazorExampleWeb.Components.Pages.GetAllUser - Component initialized.
+2024-06-05 18:18:04,416 [14] INFO  BlazorExampleWeb.Components.Pages.GetAllUser - Component initialized.
+2024-06-05 18:18:07,476 [14] INFO  BlazorExampleWeb.Components.Pages.GetAllUser - Loading user with ID: 6
+2024-06-05 18:18:11,834 [7] INFO  BlazorExampleWeb.Components.Pages.GetAllUser - Loading user with ID: 9
+2024-06-05 18:20:06,465 [14] INFO  BlazorExampleWeb.Components.Pages.GetAllUser - Component initialized.
+2024-06-05 18:20:10,315 [17] INFO  BlazorExampleWeb.Components.Pages.GetAllUser - Loading user with ID: 120
+2024-06-05 18:20:15,234 [9] INFO  BlazorExampleWeb.Components.Pages.GetAllUser - Loading user with ID: 25
+2024-06-05 18:20:18,671 [14] INFO  BlazorExampleWeb.Components.Pages.GetAllUser - Loading user with ID: 10
+2024-06-05 18:34:57,121 [5] INFO  BlazorExampleWeb.Components.Pages.GetAllUser - OnInitializedAsync executed.
+2024-06-05 18:35:00,026 [7] INFO  BlazorExampleWeb.Components.Pages.GetAllUser - Component initialized.
+2024-06-05 18:35:01,012 [7] INFO  BlazorExampleWeb.Components.Pages.GetAllUser - OnInitializedAsync executed.
+2024-06-05 18:35:01,866 [20] INFO  BlazorExampleWeb.Components.Pages.GetAllUser - Component initialized.
+2024-06-05 18:38:32,113 [5] INFO  BlazorExampleWeb.Components.Pages.ManageUser - OnInitializedAsync executed.
+2024-06-05 18:39:08,733 [14] INFO  BlazorExampleWeb.Components.Pages.ManageUser - OnInitializedAsync executed.
+2024-06-05 18:40:53,845 [9] INFO  BlazorExampleWeb.Components.Pages.ManageUser - OnInitializedAsync executed.

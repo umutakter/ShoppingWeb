@@ -1,0 +1,153 @@
+﻿@page "/manageUsers"
+@page "/"
+@using ShoppingDAL.Repositories
+@using ShoppingML.DbModels
+@using log4net
+@using CoreLibrary.Models
+
+@inject ILogger<ManageUser> Logger
+
+<PageTitle>Manage Users</PageTitle>
+
+<div class="container mt-5">
+    <h1 class="mb-4">Manage Users</h1>
+    <p>This component demonstrates CRUD operations.</p>
+
+    <button class="btn btn-primary mb-4" @onclick="ShowInsertForm">Insert New User</button>
+
+    @if (showDetails)
+    {
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title">@((inputUser.ID == 0 ? "Insert New User" : "Edit User Details"))</h5>
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <label class="form-label">ID:</label>
+                        <input type="number" class="form-control" @bind="inputUser.ID" readonly="readonly" />
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label">First Name:</label>
+                        <input type="text" class="form-control" @bind="inputUser.FirstName" />
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label">Last Name:</label>
+                        <input type="text" class="form-control" @bind="inputUser.LastName" />
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label">Username:</label>
+                        <input type="text" class="form-control" @bind="inputUser.Username" />
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label">Email:</label>
+                        <input type="email" class="form-control" @bind="inputUser.Email" />
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label">Gender:</label>
+                        <input type="text" class="form-control" @bind="inputUser.Gender" />
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label">Password:</label>
+                        <input type="password" class="form-control" @bind="inputUser.Password" />
+                    </div>
+                    <div class="col-12 mt-3">
+                        <button class="btn btn-primary me-2" @onclick="SaveUser">@((inputUser.ID == 0 ? "Insert User" : "Update User"))</button>
+                        <button class="btn btn-secondary" @onclick="HideDetails">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+    <h2 class="mb-4">Users List</h2>
+    @if (users == null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Username</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in users)
+                {
+                    <tr>
+                        <td>@user.FirstName</td>
+                        <td>@user.LastName</td>
+                        <td>@user.Username</td>
+                        <td>
+                            <button class="btn btn-info btn-sm me-2" @onclick="() => ShowDetails(user.ID)">Details</button>
+                            <button class="btn btn-danger btn-sm" @onclick="() => DeleteUser(user.ID)">Delete</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
+
+@code {
+    private List<User>? users = null;
+    private User inputUser = new User();
+    private bool showDetails = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Logger.LogInformation("OnInitializedAsync executed.");
+        LoadUsers();
+    }
+
+    private void LoadUsers()
+    {
+        var repository = new UserRepository();
+        users = repository.SelectAll();
+    }
+
+    private void ShowInsertForm()
+    {
+        inputUser = new User();
+        showDetails = true;
+    }
+
+    private void ShowDetails(int id)
+    {
+        var repository = new UserRepository();
+        inputUser = repository.SelectById(id) ?? new User();
+        showDetails = true;
+    }
+
+    private void HideDetails()
+    {
+        inputUser = new User();
+        showDetails = false;
+    }
+
+    private void SaveUser()
+    {
+        var repository = new UserRepository();
+        if (inputUser.ID == 0)
+        {
+            repository.Insert(inputUser);
+        }
+        else
+        {
+            repository.Update(inputUser);
+        }
+        LoadUsers();
+        inputUser = new User();
+        showDetails = false;
+    }
+
+    private void DeleteUser(int id)
+    {
+        var repository = new UserRepository();
+        repository.DeleteById(id);
+        LoadUsers();
+    }
+}

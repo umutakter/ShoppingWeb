@@ -14,6 +14,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using System.Transactions;
 
 namespace CoreLibrary
 {
@@ -24,6 +25,7 @@ namespace CoreLibrary
         private static readonly ILog log = Logger.GetLogger(typeof(BaseRepository<T>));
         private readonly string connectionString;
         protected DbConnection? connection;
+        private DbTransaction? transaction;
         public BaseRepository()
         {
             this.connectionString = BaseSettings.ConnectionString;
@@ -112,6 +114,42 @@ namespace CoreLibrary
                 throw new Exception($"CoreLibrary:BaseRepository::{nameof(T)}::DeleteById::Error occured.", ex);
             }
 
+        }
+        #endregion
+        #region TRANSACTIONS
+        public void BeginTransaction()
+        {
+            if (connection == null)
+                connection = new SqlConnection(connectionString);
+
+            if (connection.State != ConnectionState.Open)
+                connection.Open();
+
+            transaction = connection.BeginTransaction();
+        }
+        public void CommitTransaction()
+        {
+            try
+            {
+                transaction?.Commit();
+            }
+            finally
+            {
+                transaction = null;
+                connection?.Close();
+            }
+        }
+        public void RollbackTransaction()
+        {
+            try
+            {
+                transaction?.Rollback();
+            }
+            finally
+            {
+                transaction = null;
+                connection?.Close();
+            }
         }
         #endregion
     }

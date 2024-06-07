@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingML", "ShoppingML\Sh
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreLibrary", "CoreLibrary\CoreLibrary.csproj", "{3BE441EB-5869-4DD3-9C79-32A27D7E9C81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorExampleWeb", "BlazorExampleWeb\BlazorExampleWeb.csproj", "{086509CE-796C-4AA4-BBB9-A9FE4264B68A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorExampleWeb", "BlazorExampleWeb\BlazorExampleWeb.csproj", "{086509CE-796C-4AA4-BBB9-A9FE4264B68A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleAPI", "SampleAPI\SampleAPI.csproj", "{A05CE194-ED9B-44EC-B731-5405123F0E64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{086509CE-796C-4AA4-BBB9-A9FE4264B68A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{086509CE-796C-4AA4-BBB9-A9FE4264B68A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{086509CE-796C-4AA4-BBB9-A9FE4264B68A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A05CE194-ED9B-44EC-B731-5405123F0E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A05CE194-ED9B-44EC-B731-5405123F0E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A05CE194-ED9B-44EC-B731-5405123F0E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A05CE194-ED9B-44EC-B731-5405123F0E64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

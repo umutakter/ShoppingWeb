@@ -3,7 +3,6 @@ using CoreLibrary.DbCore;
 using CoreLibrary.Logging;
 using CoreLibrary.Repository;
 using log4net;
-using ShoppingML.DbModels;
 using System;
 using System.Collections.Generic;
 using System.Data.Common;
@@ -14,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace ShoppingDAL.Repositories
 {
-    public class UserRepository : BaseRepository<User>
+    public class UserRepository : BaseRepository
     {
         private static readonly ILog log = Logger.GetLogger(typeof(UserRepository));
         private readonly string connectionString;

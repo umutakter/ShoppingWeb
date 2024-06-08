@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ShoppingDAL\ShoppingDAL.csproj" />
-    <ProjectReference Include="..\ShoppingML\ShoppingML.csproj" />
   </ItemGroup>
 
 </Project>

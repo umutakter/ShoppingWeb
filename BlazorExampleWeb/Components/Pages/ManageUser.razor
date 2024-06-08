@@ -1,7 +1,7 @@
 ﻿@page "/manageUsers"
 @page "/"
+@using ShoppingDAL.Models
 @using ShoppingDAL.Repositories
-@using ShoppingML.DbModels
 @using log4net
 @using CoreLibrary.Models
 
@@ -106,7 +106,7 @@
     private void LoadUsers()
     {
         var repository = new UserRepository();
-        users = repository.SelectAll();
+        users = repository.SelectAll<User>();
     }
 
     private void ShowInsertForm()
@@ -118,7 +118,7 @@
     private void ShowDetails(int id)
     {
         var repository = new UserRepository();
-        inputUser = repository.SelectById(id) ?? new User();
+        inputUser = repository.SelectById<User>(id) ?? new User();
         showDetails = true;
     }
 
@@ -147,7 +147,7 @@
     private void DeleteUser(int id)
     {
         var repository = new UserRepository();
-        repository.DeleteById(id);
+        repository.DeleteById<User>(id);
         LoadUsers();
     }
 }

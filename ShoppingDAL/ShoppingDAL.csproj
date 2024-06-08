@@ -12,7 +12,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CoreLibrary\CoreLibrary.csproj" />
-    <ProjectReference Include="..\ShoppingML\ShoppingML.csproj" />
   </ItemGroup>
 
 </Project>

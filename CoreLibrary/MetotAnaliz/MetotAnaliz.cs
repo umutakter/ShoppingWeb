@@ -9,17 +9,17 @@ using System.Threading.Tasks;
 
 namespace CoreLibrary.MetotAnaliz
 {
+
     public static class MetotAnaliz
     {
         public static void AnalizEt()
         {
-            var pRepo = new BaseRepository<Project>();
-            var cRepo = new BaseRepository<Controller>();
-            var mRepo = new BaseRepository<Method>();
+            var db = new BaseRepository();
 
             Assembly entryAssembly = Assembly.GetEntryAssembly()!;
-            //proje kaydedilir id döner.
-            var projectId = pRepo.Insert(new Project() { ProjectName = entryAssembly.GetName().Name! });
+
+            int projectId = Helpers.Helpers.SelectOrInsert(new Project() { ProjectName = entryAssembly.GetName().Name! });
+
             Type[] types = entryAssembly.GetTypes();
             foreach (Type type in types)
             {
@@ -29,13 +29,14 @@ namespace CoreLibrary.MetotAnaliz
                     var attrName = attr.GetType().Name;
                     if (attrName == "ApiControllerAttribute")
                     {
-                        //controller kaydeder id döner
-                        var controllerId = cRepo.Insert(new Controller() { ProjectId = projectId, ControllerName = type.Name });
+
+                        int controllerId = Helpers.Helpers.SelectOrInsert(new Controller() { ProjectId = projectId, ControllerName = type.Name });
+
                         MethodInfo[] methods = type.GetMethods(BindingFlags.Public | BindingFlags.Instance | BindingFlags.DeclaredOnly);
                         foreach (MethodInfo method in methods)
                         {
-                            //metotları kaydeder.
-                            mRepo.Insert(new Method() { ControllerId = controllerId, MethodName = method.Name });
+
+                            Helpers.Helpers.SelectOrInsert(new Method() { ControllerId = controllerId, MethodName = method.Name });
                         }
                     }
                 }

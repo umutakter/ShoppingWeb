@@ -3,7 +3,7 @@ using SampleAPI.Models;
 
 namespace SampleAPI.DataAccessLayer
 {
-    public class UsersDAL : BaseRepository<User>
+    public class UsersDAL : BaseRepository
     {
 
     }

@@ -9,7 +9,7 @@ namespace SampleAPI.Models
         public const string TABLE_NAME = "Users";
 
         [CoreKey]
-        public int ID { get; set; }
+        public int Id { get; set; }
 
         [Required]
         [StringLength(50)]

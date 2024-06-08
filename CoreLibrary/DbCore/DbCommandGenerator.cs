@@ -122,5 +122,45 @@ namespace CoreLibrary.DbCore
             command.Parameters.AddWithValue("@id", id);
             return command;
         }
+        public static DbCommand GetSelectAllExceptKeyCommand<T>(T model)
+        {
+            Type type = typeof(T);
+            Dictionary<string, object> columns = new Dictionary<string, object>();
+            string keyColumn = "";
+            string whereClause = "";
+
+            foreach (PropertyInfo property in type.GetProperties())
+            {
+                var attribute = property.GetCustomAttributes(true).FirstOrDefault();
+                string propertyName = property.Name;
+                if (attribute != null && attribute.GetType().Name == "CoreKeyAttribute")
+                {
+                    keyColumn = propertyName;
+                }
+                else
+                {
+                    columns.Add(propertyName, property.GetValue(model)!);
+                    whereClause += $" AND {propertyName} = @{propertyName}";
+                }
+            }
+
+            if (string.IsNullOrEmpty(keyColumn))
+            {
+                throw new InvalidOperationException("Key column not found.");
+            }
+
+            whereClause = whereClause.TrimStart(" AND".ToCharArray());
+
+            string tableName = DbHelpers.GetTableName<T>();
+            var query = $"SELECT * FROM {tableName} WHERE {whereClause}";
+
+            var command = new SqlCommand(query);
+            foreach (var key in columns.Keys)
+            {
+                object value = columns[key];
+                command.Parameters.AddWithValue($"@{key}", value);
+            }
+            return command;
+        }
     }
 }

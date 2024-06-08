@@ -14,13 +14,18 @@ namespace SampleAPI.Controllers
         [HttpGet]
         public List<User> GetAllUsers()
         {
-            return dal.SelectAll();
+            return dal.SelectAll<User>();
         }
 
         [HttpGet]
         public User GetUser(int id) 
         {
-            return dal.SelectById(id);
+            return dal.SelectById<User>(id);
+        }
+        [HttpPost]
+        public int InsertUser(User model)
+        {
+            return dal.Insert(model);
         }
     }
 }

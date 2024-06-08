@@ -20,9 +20,9 @@ namespace CoreLibrary
 {
 
 
-    public class BaseRepository<T> : IBaseRepository<T> where T : CoreDbModel
+    public class BaseRepository : IBaseRepository
     {
-        private static readonly ILog log = Logger.GetLogger(typeof(BaseRepository<T>));
+        private static readonly ILog log = Logger.GetLogger(typeof(BaseRepository));
         private readonly string connectionString;
         protected DbConnection? connection;
         private DbTransaction? transaction;
@@ -39,12 +39,12 @@ namespace CoreLibrary
             }
             catch (Exception ex)
             {
-                log.Error($"CoreLibrary:BaseRepository::{nameof(T)}::Dispose::Error occured.", ex);
+                log.Error($"CoreLibrary:BaseRepository::Dispose::Error occured.", ex);
             }
         }
 
         #region GENERIC CRUD OPERATIONS
-        public bool Update(T model)
+        public bool Update<T>(T model) where T : CoreDbModel
         {
             try
             {
@@ -60,7 +60,7 @@ namespace CoreLibrary
             }
 
         }
-        public int Insert(T model)
+        public int Insert<T>(T model) where T : CoreDbModel
         {
             try
             {
@@ -75,11 +75,14 @@ namespace CoreLibrary
                 throw new Exception($"CoreLibrary:BaseRepository::{nameof(T)}::Insert::Error occured.", ex);
             }
         }
-        public List<T> SelectAll()
+        public List<T> SelectAll<T>() where T: CoreDbModel
         {
             try
             {
-                return DbExecutor.SelectExecutor<T>(DbCommandGenerator.GetSelectAllCommand<T>());
+                using (var command = DbCommandGenerator.GetSelectAllCommand<T>())
+                {
+                    return DbExecutor.SelectExecutor<T>(command);
+                }
             }
             catch (Exception ex)
             {
@@ -87,11 +90,14 @@ namespace CoreLibrary
                 throw new Exception($"CoreLibrary:BaseRepository::{nameof(T)}::SelectAll::Error occured.", ex);
             }
         }
-        public T SelectById(int id)
+        public T SelectById<T>(int id) where T : CoreDbModel
         {
             try
             {
-                return DbExecutor.SelectExecutor<T>(DbCommandGenerator.GetSelectByIdCommand<T>(id)).FirstOrDefault()!;
+                using (var command = DbCommandGenerator.GetSelectByIdCommand<T>(id))
+                {
+                    return DbExecutor.SelectExecutor<T>(command).FirstOrDefault()!;
+                }
             }
             catch (Exception ex)
             {
@@ -99,7 +105,7 @@ namespace CoreLibrary
                 throw new Exception($"CoreLibrary:BaseRepository::{nameof(T)}::SelectById::Error occured.", ex);
             }
         }
-        public void DeleteById(int id)
+        public void DeleteById<T>(int id) where T : CoreDbModel
         {
             try
             {
@@ -114,6 +120,21 @@ namespace CoreLibrary
                 throw new Exception($"CoreLibrary:BaseRepository::{nameof(T)}::DeleteById::Error occured.", ex);
             }
 
+        }
+        public T GetSelectAllExceptKey<T>(T model) where T : CoreDbModel
+        {
+            try
+            {
+                using(var command = DbCommandGenerator.GetSelectAllExceptKeyCommand(model))
+                {
+                   return  DbExecutor.SelectExecutor<T>(command).FirstOrDefault()!;
+                }
+            }
+            catch (Exception ex)
+            {
+                log.Error($"CoreLibrary:BaseRepository::{nameof(T)}::GetSelectAllExceptKey::Error occured.", ex);
+                throw new Exception($"CoreLibrary:BaseRepository::{nameof(T)}::GetSelectAllExceptKey::Error occured.", ex);
+            }
         }
         #endregion
         #region TRANSACTIONS
@@ -151,6 +172,7 @@ namespace CoreLibrary
                 connection?.Close();
             }
         }
+
         #endregion
     }
 }

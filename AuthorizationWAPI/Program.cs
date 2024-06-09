@@ -1,9 +1,10 @@
-using CoreLibrary.DbCore;
+using CoreLibrary.Authorization.Interfaces;
+using CoreLibrary.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
+builder.Services.AddSingleton<ITokenService>(new TokenService(builder.Configuration["SecretKey"]));
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -17,14 +18,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-DbCoreConfig.SetConfig(conf =>
-{
-    conf.SetDbConnection(
-        connection => connection.ConnectionString = builder.Configuration.GetConnectionString("DefaultConnection")!
-        );
-});
 
-CoreLibrary.MetotAnaliz.MethodAnalysis.Analyze();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

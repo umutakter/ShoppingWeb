@@ -2,11 +2,13 @@
 using Microsoft.AspNetCore.Mvc;
 using SampleAPI.DataAccessLayer;
 using SampleAPI.Models;
+using ShoppingML.Attributes;
 
 namespace SampleAPI.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]
+    [CoreAuthorization]
     public class UsersController : ControllerBase
     {
         UsersDAL dal = new UsersDAL();

@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 namespace CoreLibrary.MetotAnaliz
 {
 
-    public static class MetotAnaliz
+    public static class MethodAnalysis
     {
-        public static void AnalizEt()
+        public static void Analyze()
         {
             var db = new BaseRepository();
 

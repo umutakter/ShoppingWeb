@@ -1,4 +1,6 @@
 ﻿using CoreLibrary.Authorization.Interfaces;
+using CoreLibrary.Models;
+using CoreLibrary.Repository;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
@@ -21,8 +23,11 @@ namespace CoreLibrary.Authorization
 
         public string GenerateToken(string licenseKey)
         {
-            string[] permissions = { "a", "b" };// TODO: yetkiler db den alınacak
-            var payload = $"{licenseKey}:{string.Join(',', permissions)}";
+            var repo = new LicenseRepository();
+            List<VewLicenseDetails> licenseDetails = repo.GetLicensePermissions(licenseKey);
+            if (licenseDetails == null)
+                return "";
+            var payload = $"{licenseKey}:{string.Join(',', licenseDetails.Select(ld => ld.CombinedName))}";
             var encryptedPayload = EncryptString(payload, _secretKey);
             return Convert.ToBase64String(encryptedPayload);
         }

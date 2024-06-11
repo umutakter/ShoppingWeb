@@ -3,6 +3,7 @@ using CoreLibrary.Logging;
 using CoreLibrary.Models;
 using CoreLibrary.Repository;
 using log4net;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -22,7 +23,7 @@ namespace CoreLibrary
 
     public class BaseRepository : IBaseRepository
     {
-        private static readonly ILog log = Logger.GetLogger(typeof(BaseRepository));
+        public static readonly ILog log = Logger.GetLogger(typeof(BaseRepository));
         private readonly string connectionString;
         protected DbConnection? connection;
         private DbTransaction? transaction;
@@ -96,6 +97,7 @@ namespace CoreLibrary
             {
                 using (var command = DbCommandGenerator.GetSelectByIdCommand<T>(id))
                 {
+                    
                     return DbExecutor.SelectExecutor<T>(command).FirstOrDefault()!;
                 }
             }

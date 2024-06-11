@@ -1,5 +1,4 @@
-﻿using AuthorizationWAPI.Models;
-using CoreLibrary.Authorization.Interfaces;
+﻿using CoreLibrary.Authorization.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,9 +16,9 @@ namespace AuthorizationWAPI.Controllers
         }
 
         [HttpPost("GetToken")]
-        public IActionResult GetToken([FromBody] TokenRequest request)
+        public IActionResult GetToken([FromBody] string licenseKey)
         {
-            var token = _tokenService.GenerateToken(request.LicenseKey);
+            var token = _tokenService.GenerateToken(licenseKey);
             return Ok(new { Token = token });
         }
     }

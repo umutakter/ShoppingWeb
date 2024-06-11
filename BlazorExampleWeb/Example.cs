@@ -1,6 +1,7 @@
-﻿using Microsoft.AspNetCore.Components;
+﻿using CoreLibrary;
+using Microsoft.AspNetCore.Components;
+using ShoppingDAL.Models;
 using ShoppingDAL.Repositories;
-using ShoppingML.DbModels;
 
 namespace BlazorExampleWeb
 {
@@ -17,14 +18,14 @@ namespace BlazorExampleWeb
 
         public void LoadUsers()
         {
-            var repository = new UserRepository();
-            users = repository.SelectAll();
+            var repository = new BaseRepository();
+            users = repository.SelectAll<User>();
         }
         protected void GetDetails(int id)
         {
             
-            var repository = new UserRepository();
-            inputUser = repository.SelectById(id) ?? new User();
+            var repository = new BaseRepository();
+            inputUser = repository.SelectById<User>(id) ?? new User();
         }
         public void SaveUser()
         {
@@ -50,7 +51,7 @@ namespace BlazorExampleWeb
         public void DeleteUser(int id)
         {
             var repository = new UserRepository();
-            repository.DeleteById(id);
+            repository.DeleteById<User>(id);
             LoadUsers();
         }
     }

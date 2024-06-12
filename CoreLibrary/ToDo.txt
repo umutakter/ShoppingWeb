@@ -1,6 +1,7 @@
 ﻿* Connection sorunu çözülecek.
 * Metot analiz yapıalcak.
-* Yetki işlemleri yapılacak
+* Yetki işlemleri yapılacak.
+* Secret key yapılandırması düzeltilmeli.
 ------------------------------------------
 * Ortak dönüş tipi yapılacak.
 * Hata ayıklaması yapılacak.

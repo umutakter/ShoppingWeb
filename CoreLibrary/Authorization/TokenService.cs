@@ -35,7 +35,7 @@ namespace CoreLibrary.Authorization
         private byte[] EncryptString(string plainText, string key)
         {
             using var aes = Aes.Create();
-            aes.Key = Encoding.UTF8.GetBytes(key);
+            aes.Key = EnsureKeyLength(Encoding.UTF8.GetBytes(key), aes.KeySize / 8);
             aes.GenerateIV();
 
             var encryptor = aes.CreateEncryptor(aes.Key, aes.IV);
@@ -44,8 +44,17 @@ namespace CoreLibrary.Authorization
             using var cs = new CryptoStream(ms, encryptor, CryptoStreamMode.Write);
             using var sw = new StreamWriter(cs);
             sw.Write(plainText);
+            sw.Close();  // Ensure all data is written and CryptoStream is flushed
 
             return ms.ToArray();
+        }
+
+        private byte[] EnsureKeyLength(byte[] key, int length)
+        {
+            if (key.Length == length) return key;
+            var newKey = new byte[length];
+            Array.Copy(key, newKey, Math.Min(key.Length, newKey.Length));
+            return newKey;
         }
     }
 }

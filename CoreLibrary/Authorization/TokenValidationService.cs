@@ -7,7 +7,7 @@ namespace CoreLibrary.Authorization
 {
     public static class TokenValidationService
     {
-        private static string _secretKey; //TODO: KEY ATANMALI
+        private static string _secretKey = "NIJsKJI2LuVeAdpy4bxknCCkbV3j74kj"; //TODO: KEY ATANMALI
 
         public static bool ValidateToken(string token, out string licenseKey, out string[] permissions)
         {
@@ -16,7 +16,8 @@ namespace CoreLibrary.Authorization
 
             try
             {
-                var decryptedToken = DecryptString(Convert.FromBase64String(token), _secretKey);
+                var stoken = Convert.FromBase64String(token);
+                var decryptedToken = DecryptString(stoken, _secretKey);
                 var tokenParts = decryptedToken.Split(':');
                 if (tokenParts.Length != 2)
                 {
@@ -37,7 +38,7 @@ namespace CoreLibrary.Authorization
         private static string DecryptString(byte[] cipherText, string key)
         {
             using var aes = Aes.Create();
-            aes.Key = Encoding.UTF8.GetBytes(key);
+            aes.Key = EnsureKeyLength(Encoding.UTF8.GetBytes(key), aes.KeySize / 8);
             aes.IV = cipherText.Take(aes.BlockSize / 8).ToArray();
             var actualCipherText = cipherText.Skip(aes.BlockSize / 8).ToArray();
 
@@ -48,6 +49,14 @@ namespace CoreLibrary.Authorization
 
             var decrypted = sr.ReadToEnd();
             return decrypted;
+        }
+
+        private static byte[] EnsureKeyLength(byte[] key, int length)
+        {
+            if (key.Length == length) return key;
+            var newKey = new byte[length];
+            Array.Copy(key, newKey, Math.Min(key.Length, newKey.Length));
+            return newKey;
         }
     }
 }

@@ -29,7 +29,7 @@ namespace CoreLibrary
         private DbTransaction? transaction;
         public BaseRepository()
         {
-            this.connectionString = BaseSettings.ConnectionString;
+            this.connectionString = BaseDbSettings.ConnectionString;
             connection = new SqlConnection(connectionString);
         }
         public void Dispose()

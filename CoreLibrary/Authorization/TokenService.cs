@@ -1,10 +1,12 @@
-﻿using CoreLibrary.Authorization.Interfaces;
+﻿using CoreLibrary.Authorization.SecretKeySettings;
+using CoreLibrary.DbCore;
 using CoreLibrary.Models;
 using CoreLibrary.Repository;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
@@ -12,14 +14,15 @@ using System.Threading.Tasks;
 
 namespace CoreLibrary.Authorization
 {
-    public class TokenService : ITokenService
+    public class TokenService
     {
-        private readonly string _secretKey;
+        private string secretKey;
 
         public TokenService(string secretKey)
         {
-            _secretKey = secretKey;
+            this.secretKey = secretKey;
         }
+        
 
         public string GenerateToken(string licenseKey)
         {
@@ -27,8 +30,8 @@ namespace CoreLibrary.Authorization
             List<VewLicenseDetails> licenseDetails = repo.GetLicensePermissions(licenseKey);
             if (licenseDetails == null)
                 return "";
-            var payload = $"{licenseKey}:{string.Join(',', licenseDetails.Select(ld => ld.CombinedName))}";
-            var encryptedPayload = EncryptString(payload, _secretKey);
+            var payload = $"{licenseKey}::{DateTime.Now.AddMinutes(30).ToString()}::{string.Join(',', licenseDetails.Select(ld => ld.CombinedName))}";
+            var encryptedPayload = EncryptString(payload, secretKey);
             return Convert.ToBase64String(encryptedPayload);
         }
 

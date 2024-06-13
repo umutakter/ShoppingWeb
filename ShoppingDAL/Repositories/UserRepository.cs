@@ -1,4 +1,5 @@
 ﻿using CoreLibrary;
+using CoreLibrary.DbCore;
 using CoreLibrary.Logging;
 using CoreLibrary.Repository;
 using log4net;
@@ -19,7 +20,7 @@ namespace ShoppingDAL.Repositories
         protected DbConnection? connection;
         public UserRepository()
         {
-            this.connectionString = BaseSettings.ConnectionString;
+            this.connectionString = BaseDbSettings.ConnectionString;
             connection = new SqlConnection(connectionString);
         }
         public void Dispose()

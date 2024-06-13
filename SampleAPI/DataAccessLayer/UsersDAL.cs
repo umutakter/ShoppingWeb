@@ -5,6 +5,6 @@ namespace SampleAPI.DataAccessLayer
 {
     public class UsersDAL : BaseRepository
     {
-
+        
     }
 }

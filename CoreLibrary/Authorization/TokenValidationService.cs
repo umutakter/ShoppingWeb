@@ -1,4 +1,4 @@
-﻿using CoreLibrary.Authorization.Interfaces;
+﻿using CoreLibrary.Authorization.SecretKeySettings;
 using Microsoft.Extensions.Configuration;
 using System.Security.Cryptography;
 using System.Text;
@@ -7,7 +7,12 @@ namespace CoreLibrary.Authorization
 {
     public class TokenValidationService
     {
-        private static string _secretKey = "NIJsKJI2LuVeAdpy4bxknCCkbV3j74kj"; //TODO: KEY ATANMALI
+        private string secretKey;
+
+        public TokenValidationService()
+        {
+            this.secretKey = BaseAuthSettings.SecretKey;
+        }
 
         public bool ValidateToken(string token, out string licenseKey, out string[] permissions, out string expireDate)
         {
@@ -18,7 +23,7 @@ namespace CoreLibrary.Authorization
             try
             {
                 var stoken = Convert.FromBase64String(token);
-                var decryptedToken = DecryptString(stoken, _secretKey);
+                var decryptedToken = DecryptString(stoken, secretKey);
                 var tokenParts = decryptedToken.Split("::");
                 if (tokenParts.Length != 3)
                 {

@@ -16,7 +16,7 @@ namespace CoreLibrary.DbCore
 
             try
             {
-                using (var connection = new SqlConnection(BaseSettings.ConnectionString))
+                using (var connection = new SqlConnection(BaseDbSettings.ConnectionString))
                 {
                     command.Connection = connection;
                     connection.Open();
@@ -45,7 +45,7 @@ namespace CoreLibrary.DbCore
         {
             try
             {
-                using (var connection = new SqlConnection(BaseSettings.ConnectionString))
+                using (var connection = new SqlConnection(BaseDbSettings.ConnectionString))
                 {
                     command.Connection = connection;
                     connection.Open();
@@ -62,7 +62,7 @@ namespace CoreLibrary.DbCore
         {
             try
             {
-                using (var connection = new SqlConnection(BaseSettings.ConnectionString))
+                using (var connection = new SqlConnection(BaseDbSettings.ConnectionString))
                 {
                     command.Connection = connection;
                     connection.Open();
@@ -80,7 +80,7 @@ namespace CoreLibrary.DbCore
         {
             try
             {
-                using (var connection = new SqlConnection(BaseSettings.ConnectionString))
+                using (var connection = new SqlConnection(BaseDbSettings.ConnectionString))
                 {
                     command.Connection = connection;
                     connection.Open();

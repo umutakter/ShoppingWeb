@@ -2,7 +2,9 @@
 * Metot analiz yapıalcak.
 * Yetki işlemleri yapılacak.
 * Secret key yapılandırması düzeltilmeli.
+
 ------------------------------------------
+* Secret key merkezileştirilmei.
 * Ortak dönüş tipi yapılacak.
 * Hata ayıklaması yapılacak.
 * Şifreleme ile iligli metotlar yazılacak.

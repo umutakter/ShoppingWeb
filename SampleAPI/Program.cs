@@ -1,3 +1,4 @@
+using CoreLibrary.Authorization.SecretKeySettings;
 using CoreLibrary.DbCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -23,7 +24,15 @@ DbCoreConfig.SetConfig(conf =>
         connection => connection.ConnectionString = builder.Configuration.GetConnectionString("DefaultConnection")!
         );
 });
-
+var secretKey = builder.Configuration["SecretKeys:SecretKey"];
+AuthCoreConfig.SetConfig(conf =>
+{
+    conf.SetSecretKey(secretKeyConfig =>
+    {
+        secretKeyConfig.SecretKeys = builder.Configuration["SecretKeys:SecretKey"];
+    });
+});
+var s2 = BaseAuthSettings.SecretKey;
 CoreLibrary.MetotAnaliz.MethodAnalysis.Analyze();
 app.UseHttpsRedirection();
 

@@ -4,26 +4,26 @@ namespace CoreLibrary.DbCore
 {
     public class DbCoreConfig
     {
-        public static void SetConfig(Action<Config> configure)
+        public static void SetConfig(Action<DbConfig> configure)
         {
-            Config config = new Config();
+            DbConfig config = new DbConfig();
             configure(config);
         }
     }
-    public class Config
+    public class DbConfig
     {
         public void SetDbConnection(Action<DatabaseSettings> dbConfig)
         {
             DatabaseSettings ds = new DatabaseSettings();
             dbConfig(ds);
-            BaseSettings.ConnectionString = ds.ConnectionString;
+            BaseDbSettings.ConnectionString = ds.ConnectionString;
         }
     }
     public class DatabaseSettings
     {
         public string ConnectionString { get; set; }
     }
-    public static class BaseSettings
+    public static class BaseDbSettings
     {
         public static string ConnectionString { get; set; }
         public static SqlConnection Connection

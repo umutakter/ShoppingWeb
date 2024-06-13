@@ -1,4 +1,5 @@
-﻿using CoreLibrary.Authorization.Interfaces;
+﻿using CoreLibrary.Authorization;
+using CoreLibrary.Authorization.SecretKeySettings;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,17 +9,12 @@ namespace AuthorizationWAPI.Controllers
     [ApiController]
     public class AuthorizationController : ControllerBase
     {
-        private readonly ITokenService _tokenService;
-
-        public AuthorizationController(ITokenService tokenService)
-        {
-            _tokenService = tokenService;
-        }
+        private TokenService tokenService = new TokenService(BaseAuthSettings.SecretKey);
 
         [HttpPost("GetToken")]
         public IActionResult GetToken([FromBody] string licenseKey)
         {
-            var token = _tokenService.GenerateToken(licenseKey);
+            var token = tokenService.GenerateToken(licenseKey);
             return Ok(new { Token = token });
         }
     }

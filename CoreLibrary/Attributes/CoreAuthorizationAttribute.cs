@@ -22,8 +22,13 @@ namespace ShoppingML.Attributes
             }
 
             var token = authorizationHeader.Replace("Bearer ", "");
-
-            if (string.IsNullOrEmpty(token) || !TokenValidationService.ValidateToken(token, out string licenseKey, out string[] permissions))
+            var tokenValidationService = new TokenValidationService();
+            if (string.IsNullOrEmpty(token) || !tokenValidationService.ValidateToken(token, out string licenseKey, out string[] permissions, out string expireDate))
+            {
+                context.Result = new UnauthorizedResult();
+                return;
+            }
+            if(licenseKey == "" ||permissions.Length == 0|| DateTime.Parse(expireDate) < DateTime.Now)
             {
                 context.Result = new UnauthorizedResult();
                 return;

@@ -5,27 +5,29 @@ using System.Text;
 
 namespace CoreLibrary.Authorization
 {
-    public static class TokenValidationService
+    public class TokenValidationService
     {
         private static string _secretKey = "NIJsKJI2LuVeAdpy4bxknCCkbV3j74kj"; //TODO: KEY ATANMALI
 
-        public static bool ValidateToken(string token, out string licenseKey, out string[] permissions)
+        public bool ValidateToken(string token, out string licenseKey, out string[] permissions, out string expireDate)
         {
             licenseKey = null;
             permissions = null;
+            expireDate = null;
 
             try
             {
                 var stoken = Convert.FromBase64String(token);
                 var decryptedToken = DecryptString(stoken, _secretKey);
-                var tokenParts = decryptedToken.Split(':');
-                if (tokenParts.Length != 2)
+                var tokenParts = decryptedToken.Split("::");
+                if (tokenParts.Length != 3)
                 {
                     return false;
                 }
 
                 licenseKey = tokenParts[0];
-                permissions = tokenParts[1].Split(',');
+                permissions = tokenParts[2].Split(',');
+                expireDate = tokenParts[1];
 
                 return true;
             }
@@ -35,7 +37,7 @@ namespace CoreLibrary.Authorization
             }
         }
 
-        private static string DecryptString(byte[] cipherText, string key)
+        private string DecryptString(byte[] cipherText, string key)
         {
             using var aes = Aes.Create();
             aes.Key = EnsureKeyLength(Encoding.UTF8.GetBytes(key), aes.KeySize / 8);
@@ -51,7 +53,7 @@ namespace CoreLibrary.Authorization
             return decrypted;
         }
 
-        private static byte[] EnsureKeyLength(byte[] key, int length)
+        private byte[] EnsureKeyLength(byte[] key, int length)
         {
             if (key.Length == length) return key;
             var newKey = new byte[length];
